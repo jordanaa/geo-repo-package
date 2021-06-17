@@ -40,6 +40,20 @@
 					"requirements": []
 				}
 			]
+		},
+		{
+			"name": "demo-Test Topology 3",
+			"actionTitle": "Reserve",
+			"description": "Topology reservation",
+			"reservationDuration": "60",
+			"automation": [
+				{
+					"testPath": "main/_runlists/demo-Runlist1.vrl",
+					"description": "Static defined runlist",
+					"parametersList": [],
+					"requirements": []
+				}
+			]
 		}
 	]
 }
