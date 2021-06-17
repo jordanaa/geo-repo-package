@@ -16,6 +16,9 @@
 					"description": "Static defined test case",
 					"parametersList": [],
 					"requirements": []
+				},
+				{
+					"tags": ["tag_1","tag_2","tag_3"]
 				}
 			]
 		},
@@ -54,6 +57,10 @@
 					"description": "Static defined runlist",
 					"parametersList": [],
 					"requirements": []
+				},
+				{
+					"allowToRunWithOptions":true,
+					"tags": ["tag_1","tag_2","tag_3"]
 				}
 			]
 		}
