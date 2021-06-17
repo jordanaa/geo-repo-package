@@ -60,7 +60,7 @@
 				},
 				{
 					"allowToRunWithOptions":true,
-					"tags": ["tag_1","tag_2","tag_3"]
+					"tags": ["tag_2"]
 				}
 			]
 		}
