@@ -61,11 +61,6 @@
 					"description": "Static defined runlist",
 					"parametersList": [],
 					"requirements": []
-				},
-				{
-					"tags": ["tag_2"],
-					"parametersList": [],
-					"requirements": []
 				}
 			]
 		}
