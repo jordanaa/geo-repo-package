@@ -24,8 +24,7 @@
 			"actionTitle": "Reserve",
 			"description": "Topology reservation with Startup/Teardown",
 			"reservationDuration": "5",
-			"intervalToRunEndTestCase": "60"
-			],
+			"intervalToRunEndTestCase": "60",
 			"startupTasks": [
 				{
 					"name": "Manifest Defined Name",
