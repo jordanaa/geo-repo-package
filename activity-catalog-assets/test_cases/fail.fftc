@@ -8,7 +8,7 @@
             <steps>
                 <item guid="2136bec8-7d7c-49ad-aecb-2167c325bb16" action="sleep">
                     <command>
-                        <body>30</body>
+                        <body>5</body>
                     </command>
                     <postProcessing>
                         <analysisRules>
@@ -18,7 +18,7 @@
                                 </extractorInfo>
                                 <processorInfo ruleType="assert">
                                     <ruleProperties type="com.fnfr.svt.execution.builtin.processors.AssertionPropertyGroup">
-                                        <expression>1 == 1</expression>
+                                        <expression>2 == 1</expression>
                                         <actionsWhenTrue>
                                             <item actionId="DeclareExecutionIssue">
                                                 <actionProperties type="com.fnfr.svt.execution.builtin.actions.ExecutionIssuePropertyGroup" severity="OK">
@@ -32,7 +32,7 @@
                                         <actionsWhenFalse>
                                             <item actionId="DeclareExecutionIssue">
                                                 <actionProperties type="com.fnfr.svt.execution.builtin.actions.ExecutionIssuePropertyGroup">
-                                                    <message>{auto_message_false}</message>
+                                                    <message>Fail</message>
                                                 </actionProperties>
                                             </item>
                                             <item actionId="FailTest">

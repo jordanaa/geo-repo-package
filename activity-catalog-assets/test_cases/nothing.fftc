@@ -8,7 +8,7 @@
             <steps>
                 <item guid="2136bec8-7d7c-49ad-aecb-2167c325bb16" action="sleep">
                     <command>
-                        <body>30</body>
+                        <body>5</body>
                     </command>
                     <postProcessing>
                         <analysisRules>
@@ -32,7 +32,7 @@
                                         <actionsWhenFalse>
                                             <item actionId="DeclareExecutionIssue">
                                                 <actionProperties type="com.fnfr.svt.execution.builtin.actions.ExecutionIssuePropertyGroup">
-                                                    <message>{auto_message_false}</message>
+                                                    <message>Fail</message>
                                                 </actionProperties>
                                             </item>
                                             <item actionId="FailTest">
