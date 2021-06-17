@@ -47,7 +47,6 @@
 			"actionTitle": "Reserve",
 			"description": "Topology reservation",
 			"reservationDuration": "60",
-			"allowToRunWithOptions":true,
 			"automation": [
 				{
 					"testPath": "main/_runlists/demo-Runlist1.vrl",
