@@ -24,13 +24,7 @@
 			"actionTitle": "Reserve",
 			"description": "Topology reservation with Startup/Teardown",
 			"reservationDuration": "5",
-			"intervalToRunEndTestCase": "60",
-			"automation": [
-				{
-					"tags": ["tag_1","tag_2","tag_3"],
-					"parametersList": [],
-					"requirements": []
-				}
+			"intervalToRunEndTestCase": "60"
 			],
 			"startupTasks": [
 				{
