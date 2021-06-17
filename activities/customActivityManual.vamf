@@ -9,6 +9,7 @@
 			"actionTitle": "Reserve",
 			"description": "Topology reservation",
 			"reservationDuration": "60",
+			"allowToRunWithOptions":true,
 			"automation": [
 				{
 					"testPath": "demo/activity-catalog-assets/test_cases/sleep_1m.fftc",
@@ -24,6 +25,14 @@
 			"description": "Topology reservation with Startup/Teardown",
 			"reservationDuration": "5",
 			"intervalToRunEndTestCase": "60",
+			"automation": [
+				{
+					"tags": ["tag_1","tag_2","tag_3"],
+					"description": "Tag defined automation",
+					"parametersList": [],
+					"requirements": []
+				}
+			]
 			"startupTasks": [
 				{
 					"name": "Manifest Defined Name",
@@ -46,10 +55,17 @@
 			"actionTitle": "Reserve",
 			"description": "Topology reservation",
 			"reservationDuration": "60",
+			"allowToRunWithOptions":true,
 			"automation": [
 				{
 					"testPath": "main/_runlists/demo-Runlist1.vrl",
 					"description": "Static defined runlist",
+					"parametersList": [],
+					"requirements": []
+				},
+				{
+					"tags": ["tag_2"],
+					"description": "Tag defined test cases",
 					"parametersList": [],
 					"requirements": []
 				}
