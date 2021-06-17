@@ -1,0 +1,45 @@
+{
+	"name": "Activity Demo",
+	"shortDescription": "Demo Activity with Automation configured",
+	"icon": "customActivityManual.svg",
+	"descriptionMarkdown": "customActivityManual.md",
+	"topology": [
+		{
+			"name": "demo-Test Topology 1",
+			"actionTitle": "Reserve",
+			"description": "Topology reservation",
+			"reservationDuration": "60",
+			"automation": [
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/sleep_1m.fftc",
+					"description": "Static defined test case",
+					"parametersList": [],
+					"requirements": []
+				}
+			]
+		},
+		{
+			"name": "demo-Test Topology 2",
+			"actionTitle": "Reserve",
+			"description": "Topology reservation with Startup/Teardown",
+			"reservationDuration": "5",
+			"intervalToRunEndTestCase": "60",
+			"startupTasks": [
+				{
+					"name": "Manifest Defined Name",
+					"testPath": "demo/activity-catalog-assets/test_cases/sleep_30s.fftc",
+					"parametersList": [],
+					"requirements": []
+				}
+			],
+			"teardownTasks": [
+				{
+					"name": "Manifest Defined Name",
+					"testPath": "demo/activity-catalog-assets/test_cases/sleep_30s.fftc",
+					"parametersList": [],
+					"requirements": []
+				}
+			]
+		}
+	]
+}
