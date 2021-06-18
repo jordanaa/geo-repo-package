@@ -18,7 +18,7 @@
 					"requirements": []
 				},
 				{
-					"tags": ["tag_1","tag_2","tag_3"]
+					"tags": ["tag_1","tag_2","tag_3","headline"]
 				}
 			]
 		},
@@ -61,6 +61,23 @@
 				{
 					"allowToRunWithOptions":true,
 					"tags": ["tag_2"]
+				},
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/headline1.fftc",
+					"allowToRunWithOptions":true,
+					"name": "ManifestNameForHeadline1"
+				},
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/headline1.fftc",
+					"allowToRunWithOptions":true
+				},
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/nothing.fftc",
+					"allowToRunWithOptions":true,
+					"name": "ManifestNameForNothing"
+				},
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/fail.fftc"
 				}
 			]
 		}
