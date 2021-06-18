@@ -79,8 +79,7 @@
 					"testPath": "demo/activity-catalog-assets/test_cases/nothing.fftc"
 				},
 				{
-					"testPath": "demo/activity-catalog-assets/test_cases/fail.fftc",
-					"name": "failNameManifest"
+					"testPath": "demo/activity-catalog-assets/test_cases/fail.fftc"
 				}
 			]
 		}
