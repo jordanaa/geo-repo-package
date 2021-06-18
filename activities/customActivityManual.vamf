@@ -55,6 +55,7 @@
 				{
 					"allowToRunWithOptions":true,
 					"testPath": "main/_runlists/demo-Runlist1.vrl",
+					"name": "ManifestNameRunlist"
 					"description": "Static defined runlist",
 					"parametersList": [],
 					"requirements": []
