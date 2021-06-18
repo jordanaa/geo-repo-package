@@ -68,7 +68,7 @@
 					"name": "ManifestNameForHeadline1"
 				},
 				{
-					"testPath": "demo/activity-catalog-assets/test_cases/headline1.fftc",
+					"testPath": "demo/activity-catalog-assets/test_cases/headline2.fftc",
 					"allowToRunWithOptions":true
 				},
 				{
