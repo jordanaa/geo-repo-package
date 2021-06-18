@@ -35,6 +35,11 @@
 					"testPath": "demo/activity-catalog-assets/test_cases/sleep_30s.fftc",
 					"parametersList": [],
 					"requirements": []
+				},
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/headline1.fftc",
+					"allowToRunWithOptions":true,
+					"name": "ManifestNameForHeadline1"
 				}
 			],
 			"teardownTasks": [
@@ -43,6 +48,11 @@
 					"testPath": "demo/activity-catalog-assets/test_cases/sleep_30s.fftc",
 					"parametersList": [],
 					"requirements": []
+				},
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/headline2.fftc",
+					"allowToRunWithOptions":true,
+					"description": "Manifest Description for Headline 2"
 				}
 			]
 		},
