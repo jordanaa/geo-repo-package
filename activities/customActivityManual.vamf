@@ -62,6 +62,7 @@
 				},
 				{
 					"allowToRunWithOptions":true,
+					"description": "Description Manifest for tag test case",
 					"tags": ["tag_2"]
 				},
 				{
@@ -71,12 +72,11 @@
 				},
 				{
 					"testPath": "demo/activity-catalog-assets/test_cases/headline2.fftc",
-					"allowToRunWithOptions":true
+					"allowToRunWithOptions":true,
+					"description": "Manifest Description for Headline 2"
 				},
 				{
-					"testPath": "demo/activity-catalog-assets/test_cases/nothing.fftc",
-					"allowToRunWithOptions":true,
-					"name": "ManifestNameForNothing"
+					"testPath": "demo/activity-catalog-assets/test_cases/nothing.fftc"
 				},
 				{
 					"testPath": "demo/activity-catalog-assets/test_cases/fail.fftc"
