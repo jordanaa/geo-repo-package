@@ -18,6 +18,7 @@
 					"requirements": []
 				},
 				{
+					"name": "TestNameForTags",
 					"tags": ["tag_1","tag_2","tag_3","headline"]
 				}
 			]
