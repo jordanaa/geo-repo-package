@@ -80,6 +80,9 @@
 				},
 				{
 					"testPath": "demo/activity-catalog-assets/test_cases/fail.fftc"
+				},
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/NoHeadlineWithDescription.fftc"
 				}
 			]
 		}
