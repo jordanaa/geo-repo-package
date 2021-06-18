@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <testCase version="8.5.0.202104211757">
     <general>
-        <documentation>Headline 1</documentation>
         <tags>headline</tags>
         <notes>Description for test &quot;NoHeadLineWithDescription.fftc&quot;</notes>
         <language>Python</language>
