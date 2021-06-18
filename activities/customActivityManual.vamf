@@ -11,10 +11,14 @@
 			"reservationDuration": "60",
 			"automation": [
 				{
+					"allowToRunWithOptions":true,
 					"testPath": "demo/activity-catalog-assets/test_cases/sleep_1m.fftc",
 					"description": "Static defined test case",
 					"parametersList": [],
 					"requirements": []
+				},
+				{
+					"tags": ["tag_1","tag_2","tag_3"]
 				}
 			]
 		},
@@ -48,10 +52,15 @@
 			"reservationDuration": "60",
 			"automation": [
 				{
+					"allowToRunWithOptions":true,
 					"testPath": "main/_runlists/demo-Runlist1.vrl",
 					"description": "Static defined runlist",
 					"parametersList": [],
 					"requirements": []
+				},
+				{
+					"allowToRunWithOptions":true,
+					"tags": ["tag_2"]
 				}
 			]
 		}
