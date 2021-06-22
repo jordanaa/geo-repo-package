@@ -78,7 +78,8 @@
 						{
 							"name": "manifestParam1",
 							"value": "testValue1",
-							"type": "TEXT"
+							"type": "TEXT",
+							"description": "Test Description"
 						},
 						{
 							"name": "manifestParam2",
@@ -94,7 +95,8 @@
 						{
 							"name": "manifestParam1",
 							"value": "testValue1",
-							"type": "TEXT"
+							"type": "TEXT",
+							"description": "TestDescription"
 						},
 						{
 							"name": "manifestParam2",
