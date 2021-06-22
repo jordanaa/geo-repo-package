@@ -70,6 +70,16 @@
 				{
 					"testPath": "main/_runlists/DefaultParamRunlist.vrl",
 					"allowToRunWithOptions":true
+				},
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/manifestParams.fftc",
+					"allowToRunWithOptions":true,
+					"parametersList": [
+						{
+							"manifestParam1": "testValue1",
+							"manifestParam2": "testValue2"
+						}
+					]
 				}
 			]
 		}
