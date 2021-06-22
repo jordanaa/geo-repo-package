@@ -86,6 +86,22 @@
 							"type": "TEXT"
 						}
 					]
+				},
+				{
+					"testPath": "main/_runlists/ManifestParamRunlist.vrl",
+					"allowToRunWithOptions":true,
+					"parametersList": [
+						{
+							"name": "manifestParam1",
+							"value": "testValue1",
+							"type": "TEXT"
+						},
+						{
+							"name": "manifestParam2",
+							"value": "testValue2",
+							"type": "TEXT"
+						}
+					]
 				}
 			]
 		}
