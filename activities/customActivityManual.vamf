@@ -40,7 +40,28 @@
 					"testPath": "demo/activity-catalog-assets/test_cases/headline1.fftc",
 					"allowToRunWithOptions":true,
 					"name": "ManifestNameForHeadline1"
+				},
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/defaultParams.fftc",
+					"name": "ManifestNameForParamTestCase"
+				},
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/manifestParams.fftc",
+					"name": "ManifestNameForParamTestCase",
+					"parametersList": [
+						{
+							"name": "manifestParam1",
+							"value": "testValue1",
+							"type": "TEXT"
+						},
+						{
+							"name": "manifestParam2",
+							"value": "testValue2",
+							"type": "TEXT"
+						}
+					]
 				}
+				
 			],
 			"teardownTasks": [
 				{
@@ -53,6 +74,17 @@
 					"testPath": "demo/activity-catalog-assets/test_cases/headline2.fftc",
 					"allowToRunWithOptions":true,
 					"description": "Manifest Description for Headline 2"
+				},
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/manifestParams.fftc",
+					"name": "ManifestNameForParamTestCase",
+					"parametersList": [
+						{
+							"name": "manifestParam1",
+							"value": "testValue1",
+							"type": "TEXT"
+						}
+					]
 				}
 			]
 		},
