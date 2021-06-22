@@ -128,6 +128,24 @@
 							"description": "TestDescription"
 						}
 					]
+				},
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/overwriteParams.fftc",
+					"allowToRunWithOptions":true,
+					"parametersList": [
+						{
+							"name": "defautParam1",
+							"value": "testManifestValue1",
+							"type": "TEXT",
+							"description": "Test Description"
+						},
+						{
+							"name": "defautParam2",
+							"value": "testManifestValue2",
+							"type": "TEXT",
+							"description": "Test Description"
+						}
+					]
 				}
 			]
 		}
