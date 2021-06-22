@@ -40,7 +40,7 @@
 							"type": "TEXT"
 						}
 					]
-				}
+				},
 				{
 					"name": "Manifest Defined Name",
 					"testPath": "demo/activity-catalog-assets/test_cases/sleep_30s.fftc",
