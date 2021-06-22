@@ -76,8 +76,14 @@
 					"allowToRunWithOptions":true,
 					"parametersList": [
 						{
-							"manifestParam1": "testValue1",
-							"manifestParam2": "testValue2"
+							"name": "manifestParam1",
+							"value": "testValue1",
+							"type": "TEXT"
+						},
+						{
+							"name": "manifestParam2",
+							"value": "testValue2",
+							"type": "TEXT"
 						}
 					]
 				}
