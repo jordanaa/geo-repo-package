@@ -134,13 +134,13 @@
 					"allowToRunWithOptions":true,
 					"parametersList": [
 						{
-							"name": "defautParam1",
+							"name": "defaultParam1",
 							"value": "testManifestValue1",
 							"type": "TEXT",
 							"description": "Test Description"
 						},
 						{
-							"name": "defautParam2",
+							"name": "defaultParam2",
 							"value": "testManifestValue2",
 							"type": "TEXT",
 							"description": "Test Description"
