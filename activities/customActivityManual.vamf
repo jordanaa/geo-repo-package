@@ -63,36 +63,13 @@
 			"reservationDuration": "60",
 			"automation": [
 				{
+					"testPath": "demo/activity-catalog-assets/test_cases/defaultParams.fftc",
 					"allowToRunWithOptions":true,
-					"testPath": "main/_runlists/demo-Runlist1.vrl",
-					"name": "ManifestNameRunlist",
-					"description": "Static defined runlist",
-					"parametersList": [],
-					"requirements": []
+					"name": "ManifestNameForParamTestCase"
 				},
 				{
-					"allowToRunWithOptions":true,
-					"description": "Description Manifest for tag test case",
-					"tags": ["tag_2"]
-				},
-				{
-					"testPath": "demo/activity-catalog-assets/test_cases/headline1.fftc",
-					"allowToRunWithOptions":true,
-					"name": "ManifestNameForHeadline1"
-				},
-				{
-					"testPath": "demo/activity-catalog-assets/test_cases/headline2.fftc",
-					"allowToRunWithOptions":true,
-					"description": "Manifest Description for Headline 2"
-				},
-				{
-					"testPath": "demo/activity-catalog-assets/test_cases/nothing.fftc"
-				},
-				{
-					"testPath": "demo/activity-catalog-assets/test_cases/fail.fftc"
-				},
-				{
-					"testPath": "demo/activity-catalog-assets/test_cases/NoHeadlineWithDescription.fftc"
+					"testPath": "main/_runlists/DefaultParamRunlist.vrl",
+					"allowToRunWithOptions":true
 				}
 			]
 		}
