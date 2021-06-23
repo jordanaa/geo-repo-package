@@ -31,7 +31,13 @@
 				},
 				{
 					"name": "TestNameForTags",
-					"tags": ["tag_1","tag_2","tag_3","headline","parameters"]
+					"tags": ["tag_1","tag_2","tag_3","headline","parameters"],
+					"parametersList": [
+						{
+							"name": "parameterFile1",
+							"value": "file1Test"
+						}	
+					]
 				}
 			]
 		},
