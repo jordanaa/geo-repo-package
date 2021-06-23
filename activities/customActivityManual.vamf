@@ -31,7 +31,8 @@
 				},
 				{
 					"name": "TestNameForTags",
-					"tags": ["tag_1","tag_2","tag_3","headline","parameters"]
+					"tags": ["tag_1","tag_2","tag_3","headline","parameters"],
+					"parameterFilePath": "demo/activity-catalog-assets/parameters/parameterFile1.ffpt"
 				}
 			]
 		},
