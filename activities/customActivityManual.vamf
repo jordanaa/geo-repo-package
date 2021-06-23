@@ -14,7 +14,7 @@
 					"allowToRunWithOptions":true,
 					"testPath": "demo/activity-catalog-assets/test_cases/runlistParamFile.fftc",
 					"description": "Test Case with parameter file defined in manifest",
-					"parameterFilePath": "demo/activity-catalog-assets/parameters/parameterFile1.ffpt"
+					"parameterFilePath": "demo/activity-catalog-assets/parameters/parameterFile1.ffpt",
 					"parametersList": [],
 					"requirements": []
 				},
