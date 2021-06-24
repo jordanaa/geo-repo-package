@@ -18,6 +18,10 @@
 						{
 							"name": "testreq1",
 							"value": "testvalue2"
+						},
+						{
+							"name": "testnewreq1",
+							"value": "testnewvalue1"
 						}
 					]
 				},
