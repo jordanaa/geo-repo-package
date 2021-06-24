@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <testCase version="8.5.0.202104211757">
     <general>
+        <tags>agentReqTag</tags>
         <language>Python</language>
     </general>
     <requirements>
