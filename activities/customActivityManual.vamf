@@ -27,7 +27,7 @@
 				},
 				{
 					"allowToRunWithOptions":true,
-					"testPath": "demo/activity-catalog-assets/test_cases/RunlistAgentReq.vrl",
+					"testPath": "main/_runlists/RunlistAgentReq.vrl",
 					"parametersList": [],
 					"requirements": []
 				},
