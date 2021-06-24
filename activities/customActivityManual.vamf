@@ -24,7 +24,13 @@
 							"value": "testnewvalue2"
 						}
 					],
-					"parametersList": []
+					"parametersList": [
+						{
+							"name": "parameterFile1",
+							"value": "valueFromManifestOverwrite",
+							"type": "TEXT"
+						}
+					]
 				},
 				{
 					"allowToRunWithOptions":true,
