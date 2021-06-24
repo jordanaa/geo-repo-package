@@ -93,13 +93,13 @@
 			"startupTasks": [
 				{
 					"testPath": "demo/activity-catalog-assets/test_cases/agentReq1.fftc",
-					"requirements": [],
-					"parametersList": [
+					"requirements": [
 						{
 							"name": "testreq1",
 							"value": "testvalue2"
 						}
-					]
+					],
+					"parametersList": []
 				},
 				{
 					"testPath": "demo/activity-catalog-assets/test_cases/mixedParams.fftc",
