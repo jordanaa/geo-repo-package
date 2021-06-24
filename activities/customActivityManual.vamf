@@ -109,6 +109,12 @@
 					"requirements": []
 				},
 				{
+					"name": "Manifest Non-Existent Test",
+					"testPath": "demo/activity-catalog-assets/test_cases/sleep_30m.fftc",
+					"parametersList": [],
+					"requirements": []
+				},
+				{
 					"testPath": "demo/activity-catalog-assets/test_cases/headline1.fftc",
 					"allowToRunWithOptions":true,
 					"name": "ManifestNameForHeadline1"
