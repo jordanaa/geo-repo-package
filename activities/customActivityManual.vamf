@@ -12,8 +12,14 @@
 			"automation": [
 				{
 					"allowToRunWithOptions":true,
-					"testPath": "demo/activity-catalog-assets/test_cases/agentReq1.fftc",
+					"tags": ["agentReqTag"],
 					"description": "Test Case with agent requirements",
+					"requirements": []
+				},
+				{
+					"allowToRunWithOptions":true,
+					"testPath": "main/_runlists/RunlistAgentReq.vrl",
+					"parametersList": [],
 					"requirements": [
 						{
 							"name": "testreq1",
@@ -24,12 +30,6 @@
 							"value": "testnewvalue1"
 						}
 					]
-				},
-				{
-					"allowToRunWithOptions":true,
-					"testPath": "main/_runlists/RunlistAgentReq.vrl",
-					"parametersList": [],
-					"requirements": []
 				},
 				{
 					"allowToRunWithOptions":true,
