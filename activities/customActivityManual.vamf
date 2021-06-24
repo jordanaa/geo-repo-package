@@ -14,7 +14,12 @@
 					"allowToRunWithOptions":true,
 					"tags": ["agentReqTag"],
 					"description": "Test Case with agent requirements",
-					"requirements": []
+					"requirements": [
+						{
+							"name": "testreq1",
+							"value": "testvalue2"
+						}
+					]
 				},
 				{
 					"allowToRunWithOptions":true,
