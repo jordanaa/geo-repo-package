@@ -24,18 +24,7 @@
 							"value": "testnewvalue2"
 						}
 					],
-					"parametersList": [
-						{
-							"name"": "defaultParam1",
-							"type": "TEXT",
-							"value": "blablabla"
-						},
-						{
-							"name": "newparam",
-							"type": "TEXT",
-							"value": "newvalue"						
-						}
-					]
+					"parametersList": []
 				},
 				{
 					"allowToRunWithOptions":true,
