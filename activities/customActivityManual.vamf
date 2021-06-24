@@ -97,6 +97,10 @@
 						{
 							"name": "testreq1",
 							"value": "testvalue2"
+						},
+												{
+							"name": "testnewreq",
+							"value": "testnewvalue"
 						}
 					],
 					"parametersList": []
