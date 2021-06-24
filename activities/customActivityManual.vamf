@@ -95,7 +95,7 @@
 					"testPath": "demo/activity-catalog-assets/test_cases/agentReq1.fftc",
 					"requirements": [],
 					"parametersList": []
-				}
+				},
 				{
 					"testPath": "demo/activity-catalog-assets/test_cases/mixedParams.fftc",
 					"name": "ManifestNameForParamTestCase",
