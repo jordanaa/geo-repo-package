@@ -12,7 +12,7 @@
 			"automation": [
 				{
 					"allowToRunWithOptions":true,
-					"tags": ["agentReqTag"],
+					"testPath": "demo/activity-catalog-assets/test_cases/agentReq1.fftc",
 					"description": "Test Case with agent requirements",
 					"requirements": [
 						{
