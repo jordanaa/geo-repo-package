@@ -29,6 +29,11 @@
 							"name": "defaultParam1",
 							"value": "valueFromManifestOverwrite",
 							"type": "TEXT"
+						},
+						{
+							"name": "newparam",
+							"value": "newparamvaluefrommanifest",
+							"type": "TEXT"
 						}
 					]
 				},
