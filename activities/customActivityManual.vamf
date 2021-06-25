@@ -92,6 +92,22 @@
 			"intervalToRunEndTestCase": "60",
 			"startupTasks": [
 				{
+					"testPath": "demo/activity-catalog-assets/test_cases/defaultParams.fftc"
+				},
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/defaultParams.fftc",
+					"parametersList": [
+						{
+							"name": "defaultParam2",
+							"value": "blablablabla"
+						},
+						{
+							"name": "newParam",
+							"value": "newValue"
+						}
+					]
+				}
+				{
 					"testPath": "demo/activity-catalog-assets/test_cases/agentReq1.fftc",
 					"requirements": [
 						{
