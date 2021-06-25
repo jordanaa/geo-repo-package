@@ -106,7 +106,7 @@
 							"value": "newValue"
 						}
 					]
-				}
+				},
 				{
 					"testPath": "demo/activity-catalog-assets/test_cases/agentReq1.fftc",
 					"requirements": [
