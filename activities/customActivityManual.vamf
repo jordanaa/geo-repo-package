@@ -99,10 +99,12 @@
 					"parametersList": [
 						{
 							"name": "defaultParam2",
+							"type": "TEXT",
 							"value": "blablablabla"
 						},
 						{
 							"name": "newParam",
+							"type": "TEXT",
 							"value": "newValue"
 						}
 					]
