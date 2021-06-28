@@ -11,6 +11,12 @@
 			"reservationDuration": "60",
 			"automation": [
 				{
+					"testPath": "eduard-repo/test_cases/fail1.fftc"
+				},
+				{
+					"testPath": "eduard-repo/runlists/runlist_fftc_2.vrl"
+				},
+				{
 					"testPath": "main/sleep/sleep_1m.fftc"
 				},
 				{
