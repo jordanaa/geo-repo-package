@@ -11,6 +11,9 @@
 			"reservationDuration": "60",
 			"automation": [
 				{
+					"testPath": "main/sleep/sleep_1m.fftc"
+				},
+				{
 					"allowToRunWithOptions":true,
 					"tags": ["agentReqTag","defaultParams"],
 					"description": "Test Case with agent requirements",
