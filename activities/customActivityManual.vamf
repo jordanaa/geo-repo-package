@@ -11,7 +11,7 @@
 			"reservationDuration": "60",
 			"automation": [
 				{
-					"testPath": "demo/runlists/runlist_fftc.vrl"
+					"testPath": "main/_runlists/mixed_runlist_repo.vrl"
 				}
 			]
 		},
