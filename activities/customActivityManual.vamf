@@ -26,19 +26,6 @@
 			"intervalToRunEndTestCase": "60",
 			"startupTasks": [
 				{
-					"testPath": "demo/activity-catalog-assets/test_cases/agentReq1.fftc",
-					"requirements": [
-						{
-							"name": "testreq1",
-							"value": "testnewvalue"
-						},
-						{
-							"name": "testnewreq",
-							"value": "blablabla"
-						}
-					]
-				},
-				{
 					"testPath": "demo/activity-catalog-assets/test_cases/defaultParams.fftc"
 				},
 				{
