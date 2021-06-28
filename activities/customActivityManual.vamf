@@ -11,6 +11,9 @@
 			"reservationDuration": "60",
 			"automation": [
 				{
+					"testPath": "main/_runlists/mixed_runlist_repo.vrl"
+				},
+				{
 					"testPath": "eduard-repo/test_cases/fail1.fftc"
 				},
 				{
