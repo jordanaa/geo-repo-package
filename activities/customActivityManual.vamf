@@ -12,7 +12,7 @@
 			"automation": [
 				{
 					"tags": ["tag_1", "tag_3"]
-				}
+				},
 				{
 					"testPath": "main/_runlists/mixed_runlist_repo.vrl"
 				},
