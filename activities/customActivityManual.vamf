@@ -32,6 +32,9 @@
 			"intervalToRunEndTestCase": "60",
 			"startupTasks": [
 				{
+					"testPath": "demo/activity-catalog-assets/test_cases/topologyParam.fftc"
+				},
+				{
 					"testPath": "demo/activity-catalog-assets/test_cases/fail.fftc"
 				},
 				{
