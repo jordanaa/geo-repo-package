@@ -13,7 +13,7 @@
 				{
 					"testPath": "demo/activity-catalog-assets/test_cases/topologyParam.fftc"
 				}
-			]
+			],
 			"automation": [
 				{
 					"testPath": "demo/activity-catalog-assets/test_cases/topologyParam.fftc"
