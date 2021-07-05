@@ -2,7 +2,6 @@
 <testCase version="8.5.0.202104211757">
     <general>
         <tags>defaultParams</tags>
-        <language>Python</language>
     </general>
     <execution>
         <parameters version="8.5.0.202104211757">
@@ -19,7 +18,7 @@
             <steps>
                 <item guid="e97cb746-d282-41d1-904f-1d4593c9cca4" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>var1 = param(&apos;${topology/resources/Test Abs Res 1/ipAddress}&apos;)</body>
+                        <body>set var1 [param &apos;${topology/resources/Test Abs Res 1/ipAddress}&apos;]</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
@@ -31,7 +30,7 @@
                 </item>
                 <item guid="3380334d-680c-4373-9a58-59a75c4ff7d1" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(var1)</body>
+                        <body>puts $var1</body>
                     </command>
                     <postProcessing>
                         <analysisRules>
@@ -47,7 +46,7 @@
                                         <actionsWhenTrue>
                                             <item actionId="DeclareExecutionIssue">
                                                 <actionProperties type="com.fnfr.svt.execution.builtin.actions.ExecutionIssuePropertyGroup" severity="OK">
-                                                    <message>Parameter value is: [value]</message>
+                                                    <message>Parameter value is: $value</message>
                                                 </actionProperties>
                                             </item>
                                             <item actionId="PassTestIfNotAlreadyFailed">
@@ -57,7 +56,7 @@
                                         <actionsWhenFalse>
                                             <item actionId="DeclareExecutionIssue">
                                                 <actionProperties type="com.fnfr.svt.execution.builtin.actions.ExecutionIssuePropertyGroup">
-                                                    <message>Parameter value is: [value] (Expected: 1.1.1.1)</message>
+                                                    <message>Parameter value is: $value (Expected: 1.1.1.1)</message>
                                                 </actionProperties>
                                             </item>
                                             <item actionId="FailTest">
