@@ -11,6 +11,9 @@
 			"reservationDuration": "60",
 			"automation": [
 				{
+					"testPath": "demo/activity-catalog-assets/test_cases/topologyParam.fftc"
+				},
+				{
 					"tags": ["tag_1", "tag_3"]
 				},
 				{
