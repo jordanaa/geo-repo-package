@@ -8,7 +8,7 @@
         <parameters version="8.5.0.202104211757">
             <parameters escape="true">
                 <parameters xmlns:pt="http://www.fnfr.com/schemas/parameterTree">
-                    <defaultParam1>testValue1</defaultParam1>
+                    <defaultParam1>${topology/resources/Test Abs Res 1/ipAddress}</defaultParam1>
                     <defaultParam2>testValue2</defaultParam2>
                 </parameters>
             </parameters>
@@ -19,7 +19,7 @@
             <steps>
                 <item guid="e97cb746-d282-41d1-904f-1d4593c9cca4" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>var1 = param(&apos;${topology/resources/Test Abs Res 1/ipAddress}&apos;)</body>
+                        <body>var1 = param(&apos;defaultParam1&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
