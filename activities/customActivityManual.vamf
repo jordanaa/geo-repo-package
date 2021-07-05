@@ -9,6 +9,11 @@
 			"actionTitle": "Reserve",
 			"description": "Topology reservation",
 			"reservationDuration": "60",
+			"startupTasks": [
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/topologyParam.fftc"
+				}
+			]
 			"automation": [
 				{
 					"testPath": "demo/activity-catalog-assets/test_cases/topologyParam.fftc"
