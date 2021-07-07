@@ -9,6 +9,7 @@
 			"actionTitle": "Reserve",
 			"description": "Topology reservation",
 			"reservationDuration": "60",
+			"automation": [],
 			"startupTasks": [
 				{
 					"testPath": "demo/activity-catalog-assets/test_cases/andreeaParamTest1.fftc",
