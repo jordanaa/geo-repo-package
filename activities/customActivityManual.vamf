@@ -11,21 +11,36 @@
 			"reservationDuration": "60",
 			"startupTasks": [
 				{
-					"testPath": "demo/activity-catalog-assets/test_cases/topologyParam.fftc"
+					"testPath": "demo/activity-catalog-assets/test_cases/andreeaParamTest1.fftc",
+					"description": "Default Params defined in test"
 				}
 			],
 			"automation": [
 				{
-					"testPath": "demo/activity-catalog-assets/test_cases/topologyParam.fftc"
+					"testPath": "demo/activity-catalog-assets/test_cases/andreeaParamTest1.fftc",
+					"description": "Default Params defined in test"
 				},
+								{
+					"testPath": "demo/activity-catalog-assets/test_cases/andreeaParamTest2.fftc",
+					"description": "Default and new param",
+					"parameterLists": [
+						{
+							"name": "defaultParam1",
+							"type": "TEXT",
+							"value": "blablablabla"
+						},
+						{
+							"name": "defaultParam2",
+							"type": "TEXT",
+							"value": "testValue2"
+						}
+					]
+				}
+			],
+			"teardownTasks": [
 				{
-					"tags": ["tag_1", "tag_3"]
-				},
-				{
-					"testPath": "main/_runlists/topologyParam.vrl"
-				},
-				{
-					"testPath": "demo/activity-catalog-assets/test_cases/fail.fftc"
+					"testPath": "demo/activity-catalog-assets/test_cases/andreeaParamTest1.fftc",
+					"description": "Default Params defined in test"
 				}
 			]
 		},
