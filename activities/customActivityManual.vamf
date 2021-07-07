@@ -12,10 +12,12 @@
 			"automation": [
 				{
 					"testPath": "demo/activity-catalog-assets/test_cases/andreeaParamTest1.fftc",
+					"allowToRunWithOptions":true,
 					"description": "Default Params defined in test"
 				},
 				{
 					"testPath": "demo/activity-catalog-assets/test_cases/andreeaParamTest2.fftc",
+					"allowToRunWithOptions":true,
 					"description": "Default and New param",
 					"parametersList": [
 						{
