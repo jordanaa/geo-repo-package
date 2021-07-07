@@ -20,7 +20,7 @@
 					"testPath": "demo/activity-catalog-assets/test_cases/andreeaParamTest1.fftc",
 					"description": "Default Params defined in test"
 				},
-								{
+				{
 					"testPath": "demo/activity-catalog-assets/test_cases/andreeaParamTest2.fftc",
 					"description": "Default and new param",
 					"parameterLists": [
