@@ -13,6 +13,22 @@
 				{
 					"testPath": "demo/activity-catalog-assets/test_cases/andreeaParamTest1.fftc",
 					"description": "Default Params defined in test"
+				},
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/andreeaParamTest2.fftc",
+					"description": "Default and New param",
+					"parametersList": [
+						{
+							"name": "defaultParam1",
+							"type": "TEXT",
+							"value": "blablabla"
+						},
+						{
+							"name": "defaultParam2",
+							"type": "TEXT",
+							"value": "testValue2"
+						}
+					]
 				}
 			],
 			"startupTasks": [
