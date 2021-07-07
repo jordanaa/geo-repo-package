@@ -15,28 +15,6 @@
 					"description": "Default Params defined in test"
 				}
 			],
-			"automation": [
-				{
-					"testPath": "demo/activity-catalog-assets/test_cases/andreeaParamTest1.fftc",
-					"description": "Default Params defined in test"
-				},
-				{
-					"testPath": "demo/activity-catalog-assets/test_cases/andreeaParamTest2.fftc",
-					"description": "Default and new param",
-					"parameterLists": [
-						{
-							"name": "defaultParam1",
-							"type": "TEXT",
-							"value": "blablablabla"
-						},
-						{
-							"name": "defaultParam2",
-							"type": "TEXT",
-							"value": "testValue2"
-						}
-					]
-				}
-			],
 			"teardownTasks": [
 				{
 					"testPath": "demo/activity-catalog-assets/test_cases/andreeaParamTest1.fftc",
