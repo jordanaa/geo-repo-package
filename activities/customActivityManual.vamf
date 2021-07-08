@@ -29,9 +29,6 @@
 			],
 			"startupTasks": [
 				{
-					"testPath": "demo/activity-catalog-assets/test_cases/defaultParams.fftc"
-				},
-				{
 					"testPath": "demo/activity-catalog-assets/test_cases/invalid.fftc"
 				},
 				{	
