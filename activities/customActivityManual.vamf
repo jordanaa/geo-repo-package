@@ -26,6 +26,16 @@
 					"tags": ["tag_1","tag_2"],
 					"allowToRunWithOptions": true
 				}
+			],
+			"startupTasks": [
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/defaultParams.fftc"
+				}
+			],
+			"teardownTasks": [
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/defaultParams.fftc"
+				}
 			]
 		},
 		{
