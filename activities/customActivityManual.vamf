@@ -33,7 +33,7 @@
 							"value": "testNewNewValue"
 						}
 					]
-				}
+				},
 				{
 					"testPath": "demo/activity-catalog-assets/test_cases/sleep_5m.fftc",
 					"allowToRunWithOptions":true
