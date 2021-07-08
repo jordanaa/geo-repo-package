@@ -19,7 +19,7 @@
 					"allowToRunWithOptions":true
 				},
 				{
-					"testPath": "maine/_runlists/Sleep_5m.vrl",
+					"testPath": "main/_runlists/Sleep_5m.vrl",
 					"allowToRunWithOptions":true
 				}
 			]
@@ -159,7 +159,7 @@
 					"allowToRunWithOptions":true
 				},
 				{
-					"testPath": "maine/_runlists/Sleep_5m.vrl",
+					"testPath": "main/_runlists/Sleep_5m.vrl",
 					"allowToRunWithOptions":true
 				}
 			]
