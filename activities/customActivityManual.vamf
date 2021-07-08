@@ -11,6 +11,30 @@
 			"reservationDuration": "60",
 			"automation": [
 				{
+					"testPath": "demo/activity-catalog-assets/test_cases/agentReq1.fftc",
+					"allowToRunWithOptions":true,
+					"requirements":[
+						{
+							"name": "testReq1",
+							"value": "testNewValue"
+						},
+						{
+							"name": "testReq2",
+							"value": "testValue2"
+						}
+					]
+				},
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/sleep_30s.fftc",
+					"allowToRunWithOptions":true,
+					"requirements":[
+						{
+							"name": "testnewreq",
+							"value": "testNewNewValue"
+						}
+					]
+				}
+				{
 					"testPath": "demo/activity-catalog-assets/test_cases/sleep_5m.fftc",
 					"allowToRunWithOptions":true
 				},
