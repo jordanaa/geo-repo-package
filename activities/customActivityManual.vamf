@@ -15,12 +15,8 @@
 					"allowToRunWithOptions":true,
 					"requirements":[
 						{
-							"name": "testReq1",
-							"value": "testNewValue"
-						},
-						{
-							"name": "testReq2",
-							"value": "testValue2"
+							"name": "testreq1",
+							"value": "testvalue2"
 						}
 					]
 				},
@@ -29,8 +25,8 @@
 					"allowToRunWithOptions":true,
 					"requirements":[
 						{
-							"name": "testnewreq",
-							"value": "testNewNewValue"
+							"name": "testreq1",
+							"value": "testvalue2"
 						}
 					]
 				},
