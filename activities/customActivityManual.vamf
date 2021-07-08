@@ -21,6 +21,10 @@
 				{
 					"testPath": "main/_runlists/Sleep_5m.vrl",
 					"allowToRunWithOptions":true
+				},
+				{
+					"tags": ["tag_1","tag_2"],
+					"allowToRunWithOptions": true
 				}
 			]
 		},
