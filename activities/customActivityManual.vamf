@@ -189,11 +189,6 @@
 			"actionTitle": "Reserve",
 			"description": "Topology reservation",
 			"reservationDuration": "60",
-			"startupTasks": [
-				{
-					"testPath": "demo/activity-catalog-assets/test_cases/nothing.fftc"
-				}
-			],
 			"teardownTasks": [
 				{
 					"testPath": "demo/activity-catalog-assets/test_cases/nothing.fftc"
