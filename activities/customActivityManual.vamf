@@ -189,18 +189,14 @@
 			"actionTitle": "Reserve",
 			"description": "Topology reservation",
 			"reservationDuration": "60",
-			"automation": [
+			"startupTasks": [
 				{
-					"testPath": "demo/activity-catalog-assets/test_cases/sleep_5m.fftc",
-					"allowToRunWithOptions":true
-				},
+					"testPath": "demo/activity-catalog-assets/test_cases/nothing.fftc"
+				}
+			],
+			"teardownTasks": [
 				{
-					"testPath": "demo/activity-catalog-assets/test_cases/sleep_1m.fftc",
-					"allowToRunWithOptions":true
-				},
-				{
-					"testPath": "main/_runlists/Sleep_5m.vrl",
-					"allowToRunWithOptions":true
+					"testPath": "demo/activity-catalog-assets/test_cases/nothing.fftc"
 				}
 			]
 		}
