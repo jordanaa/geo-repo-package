@@ -17,6 +17,10 @@
 				{
 					"testPath": "demo/activity-catalog-assets/test_cases/sleep_1m.fftc",
 					"allowToRunWithOptions":true
+				},
+				{
+					"testPath": "maine/_runlists/Sleep_5m.vrl",
+					"allowToRunWithOptions":true
 				}
 			]
 		},
@@ -152,6 +156,10 @@
 				},
 				{
 					"testPath": "demo/activity-catalog-assets/test_cases/sleep_1m.fftc",
+					"allowToRunWithOptions":true
+				},
+				{
+					"testPath": "maine/_runlists/Sleep_5m.vrl",
 					"allowToRunWithOptions":true
 				}
 			]
