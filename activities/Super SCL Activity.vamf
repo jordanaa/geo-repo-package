@@ -1,6 +1,6 @@
 {
-	"name": "SCL Activity",
-	"shortDescription": "Demo Activity configured for SCL tests",
+	"name": "Super SCL Activity",
+	"shortDescription": "Demo Activity configured for SCL tests 2",
 	"icon": "customActivityManual.svg",
 	"descriptionMarkdown": "customActivityManual.md",
 	"topology": [
