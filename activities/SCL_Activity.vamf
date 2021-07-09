@@ -32,43 +32,43 @@
 				},
 				{
 					"testPath": "demo/runlists/scl_1.vrl",
-					"allowToRunWithOptions": "true
+					"allowToRunWithOptions": true
 				},
 				{
 					"testPath": "demo/runlists/scl_2.vrl",
-					"allowToRunWithOptions": "true
+					"allowToRunWithOptions": true
 				},
 				{
 					"testPath": "demo/runlists/scl_3.vrl",
-					"allowToRunWithOptions": "true
+					"allowToRunWithOptions": true
 				},
 				{
 					"testPath": "demo/runlists/scl_4.vrl",
-					"allowToRunWithOptions": "true
+					"allowToRunWithOptions": true
 				},
 				{
 					"testPath": "demo/runlists/scl_5.vrl",
-					"allowToRunWithOptions": "true
+					"allowToRunWithOptions": true
 				},
 				{
 					"testPath": "demo/runlists/scl_6.vrl",
-					"allowToRunWithOptions": "true
+					"allowToRunWithOptions": true
 				},
 				{
 					"testPath": "demo/runlists/scl_7.vrl",
-					"allowToRunWithOptions": "true
+					"allowToRunWithOptions": true
 				},
 				{
 					"testPath": "demo/runlists/scl_8.vrl",
-					"allowToRunWithOptions": "true
+					"allowToRunWithOptions": true
 				},
 				{
 					"testPath": "demo/runlists/scl_9.vrl",
-					"allowToRunWithOptions": "true
+					"allowToRunWithOptions": true
 				},
 				{
 					"testPath": "demo/runlists/scl_10.vrl",
-					"allowToRunWithOptions": "true
+					"allowToRunWithOptions": true
 				}
 			],
 			"startupTasks": [
