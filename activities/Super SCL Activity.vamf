@@ -7076,6 +7076,7 @@
 			"actionTitle": "Reserve",
 			"description": "Topology reservation",
 			"reservationDuration": "240",
+			"intervalToRunEndTestCase": "600",
 			"automation": [
 				{
 					"testPath": "demo/activity-catalog-assets/test_cases/sleep_30s.fftc",
