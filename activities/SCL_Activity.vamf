@@ -384,115 +384,13 @@
 			"intervalToRunEndTestCase": "60",
 			"startupTasks": [
 				{
-					"testPath": "demo/activity-catalog-assets/test_cases/topologyParam.fftc"
-				},
-				{
-					"testPath": "demo/activity-catalog-assets/test_cases/fail.fftc"
-				},
-				{
-					"testPath": "demo/activity-catalog-assets/test_cases/defaultParams.fftc"
-				},
-				{
-					"testPath": "demo/activity-catalog-assets/test_cases/defaultParams.fftc",
-					"parametersList": [
-						{
-							"name": "defaultParam2",
-							"type": "TEXT",
-							"value": "blablablabla"
-						},
-						{
-							"name": "newParam",
-							"type": "TEXT",
-							"value": "newValue"
-						}
-					]
-				},
-				{
-					"testPath": "demo/activity-catalog-assets/test_cases/agentReq1.fftc",
-					"requirements": [
-						{
-							"name": "testreq1",
-							"value": "testvalue2"
-						},
-												{
-							"name": "testnewreq",
-							"value": "testnewvalue"
-						}
-					],
-					"parametersList": []
-				},
-				{
-					"testPath": "demo/activity-catalog-assets/test_cases/mixedParams.fftc",
-					"name": "ManifestNameForParamTestCase",
-					"parametersList": [
-						{
-							"name": "manifestParam1",
-							"value": "testValue1",
-							"type": "TEXT"
-						}
-					]
-				},
-				{
-					"name": "Manifest Defined Name",
-					"testPath": "demo/activity-catalog-assets/test_cases/sleep_30s.fftc",
-					"parametersList": [],
-					"requirements": []
-				},
-				{
-					"name": "Manifest Non-Existent Test",
-					"testPath": "demo/activity-catalog-assets/test_cases/sleep_30m.fftc",
-					"parametersList": [],
-					"requirements": []
-				},
-				{
-					"testPath": "demo/activity-catalog-assets/test_cases/headline1.fftc",
-					"allowToRunWithOptions":true,
-					"name": "ManifestNameForHeadline1"
-				},
-				{
-					"testPath": "demo/activity-catalog-assets/test_cases/defaultParams.fftc",
-					"name": "ManifestNameForParamTestCase"
-				},
-				{
-					"testPath": "demo/activity-catalog-assets/test_cases/manifestParams.fftc",
-					"name": "ManifestNameForParamTestCase",
-					"parametersList": [
-						{
-							"name": "manifestParam1",
-							"value": "testValue1",
-							"type": "TEXT"
-						},
-						{
-							"name": "manifestParam2",
-							"value": "testValue2",
-							"type": "TEXT"
-						}
-					]
+					"testPath": "demo/activity-catalog-assets/test_cases/scl_1.fftc"
 				}
 				
 			],
 			"teardownTasks": [
 				{
-					"name": "Manifest Defined Name",
-					"testPath": "demo/activity-catalog-assets/test_cases/sleep_30s.fftc",
-					"parametersList": [],
-					"requirements": []
-				},
-				{
-					"testPath": "demo/activity-catalog-assets/test_cases/headline2.fftc",
-					"allowToRunWithOptions":true,
-					"description": "Manifest Description for Headline 2"
-				},
-				{
-					"testPath": "demo/activity-catalog-assets/test_cases/manifestParams.fftc",
-					"name": "ManifestNameForParamTestCase",
-					"parametersList": [
-						{
-							"name": "manifestParam1",
-							"value": "testValue1",
-							"type": "TEXT"
-						}
-					]
+					"testPath": "demo/activity-catalog-assets/test_cases/scl_1.fftc"
 				}
 			]
 		},
