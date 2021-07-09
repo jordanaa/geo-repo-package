@@ -403,7 +403,7 @@
 				{
 					"testPath": "demo/activity-catalog-assets/test_cases/scl_3.fftc"
 				}
-			]
+			],
 			"teardownTasks": [
 				{
 					"testPath": "demo/activity-catalog-assets/test_cases/nothing.fftc"
