@@ -401,12 +401,66 @@
 			"intervalToRunEndTestCase": "120",
 			"startupTasks": [
 				{
+					"testPath": "demo/activity-catalog-assets/test_cases/scl_1.fftc"
+				},
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/scl_2.fftc"
+				},
+				{
 					"testPath": "demo/activity-catalog-assets/test_cases/scl_3.fftc"
+				},
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/scl_4.fftc"
+				},
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/scl_5.fftc"
+				},
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/scl_6.fftc"
+				},
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/scl_7.fftc"
+				},
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/scl_8.fftc"
+				},
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/scl_9.fftc"
+				},
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/scl_10.fftc"
 				}
 			],
 			"teardownTasks": [
 				{
-					"testPath": "demo/activity-catalog-assets/test_cases/nothing.fftc"
+					"testPath": "demo/activity-catalog-assets/test_cases/scl_1.fftc"
+				},
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/scl_2.fftc"
+				},
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/scl_3.fftc"
+				},
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/scl_4.fftc"
+				},
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/scl_5.fftc"
+				},
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/scl_6.fftc"
+				},
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/scl_7.fftc"
+				},
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/scl_8.fftc"
+				},
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/scl_9.fftc"
+				},
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/scl_10.fftc"
 				}
 			]
 		}
