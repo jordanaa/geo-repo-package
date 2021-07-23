@@ -85,7 +85,7 @@
 						{
 							"name": "manifestParam2",
 							"type": "TEXT",
-							"value": "blablablabla"
+							"value": "testValue2"
 						},
 						{
 							"name": "manifestParam3",
