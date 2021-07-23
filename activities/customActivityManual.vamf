@@ -124,6 +124,9 @@
 				},
 				{
 					"testPath": "main/_runlists/RunlistAgentReq.vrl"
+				},
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/NoHeadlineWithDescription.fftc"
 				}
 			]
 		}
