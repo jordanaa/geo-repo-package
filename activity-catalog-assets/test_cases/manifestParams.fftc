@@ -120,7 +120,7 @@
                 </item>
                 <item guid="40d8d166-192a-491d-8061-9e946e619f53" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print(var2)</body>
+                        <body>print(var3)</body>
                     </command>
                     <postProcessing>
                         <analysisRules>
