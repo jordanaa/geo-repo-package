@@ -121,6 +121,9 @@
 			"automation": [
 				{
 					"testPath": "main/_runlists/DefaultParamRunlist.vrl"
+				},
+				{
+					"testPath": "main/_runlists/RunlistAgentReq.vrl"
 				}
 			]
 		}
