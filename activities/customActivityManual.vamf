@@ -118,9 +118,9 @@
 			"actionTitle": "Reserve",
 			"description": "Topology reservation",
 			"reservationDuration": "60",
-			"teardownTasks": [
+			"automation": [
 				{
-					"testPath": "demo/activity-catalog-assets/test_cases/nothing.fftc"
+					"testPath": "main/_runlists/DefaultParamRunlist.vrl"
 				}
 			]
 		}
