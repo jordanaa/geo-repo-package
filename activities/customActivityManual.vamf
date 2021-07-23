@@ -127,6 +127,9 @@
 				},
 				{
 					"testPath": "demo/activity-catalog-assets/test_cases/NoHeadlineWithDescription.fftc"
+				},
+				{
+					"tags": ["headline"]
 				}
 			]
 		}
