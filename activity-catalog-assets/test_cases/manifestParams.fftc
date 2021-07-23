@@ -8,7 +8,7 @@
             <parameters escape="true">
                 <parameters xmlns:pt="http://www.fnfr.com/schemas/parameterTree">
                     <manifestParam1>testValue1</manifestParam1>
-                    <manifestParam2>testValue2</manifestParam2>
+                    <manifestParam2>differentValue2</manifestParam2>
                 </parameters>
             </parameters>
         </parameters>
