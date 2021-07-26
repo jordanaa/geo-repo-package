@@ -122,16 +122,15 @@
 			"reservationDuration": "60",
 			"automation": [
 				{
+					"addRepositoryNamePrefix": false,
 					"testPath": "main/_runlists/DefaultParamRunlist.vrl"
 				},
 				{
 					"testPath": "main/_runlists/RunlistAgentReq.vrl"
 				},
 				{
-					"testPath": "demo/activity-catalog-assets/test_cases/NoHeadlineWithDescription.fftc"
-				},
-				{
-					"tags": ["headline"]
+					"addRepositoryNamePrefix": true,
+					"testPath": "activity-catalog-assets/test_cases/NoHeadlineWithDescription.fftc"
 				}
 			]
 		}
