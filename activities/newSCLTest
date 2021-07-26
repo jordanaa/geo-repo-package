@@ -1,0 +1,10 @@
+{
+	"name": "Andreea SCL Activity",
+	"shortDescription": "Demo Activity configured for SCL tests 3",
+	"icon": "customActivityManual.svg",
+	"descriptionMarkdown": "customActivityManual.md",
+	"topology": [
+		{
+    }
+  ]
+}
