@@ -49,10 +49,12 @@
 			],
 			"startupTasks": [
 				{
-					"testPath": "demo/activity-catalog-assets/test_cases/nothing.fftc"
+					"addRepositoryNamePrefix": true,
+					"testPath": "activity-catalog-assets/test_cases/nothing.fftc"
 				},
 				{	
 					"name": "CustomNameDefinedInManifest",
+					"addRepositoryNamePrefix": false,
 					"testPath": "demo/activity-catalog-assets/test_cases/headline1.fftc"
 				},
 				{	
