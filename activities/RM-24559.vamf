@@ -1,0 +1,137 @@
+{
+	"name": "RM-24559 - Activity",
+	"shortDescription": "Demo Activity with new implementation for adding prefix for items",
+	"icon": "customActivityManual.svg",
+	"descriptionMarkdown": "customActivityManual.md",
+	"topology": [
+		{
+			"name": "demo-Test Topology 1",
+			"actionTitle": "Reserve",
+			"description": "Topology reservation",
+			"reservationDuration": "60",
+			"automation": [
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/agentReq1.fftc",
+					"allowToRunWithOptions":true,
+					"requirements":[
+						{
+							"name": "testreq1",
+							"value": "testvalue2"
+						}
+					]
+				},
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/sleep_30s.fftc",
+					"allowToRunWithOptions":true,
+					"requirements":[
+						{
+							"name": "testreq1",
+							"value": "testvalue2"
+						}
+					]
+				},
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/sleep_5m.fftc",
+					"allowToRunWithOptions":true
+				},
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/sleep_1m.fftc",
+					"allowToRunWithOptions":true
+				},
+				{
+					"testPath": "main/_runlists/Sleep_5m.vrl",
+					"allowToRunWithOptions":true
+				},
+				{
+					"tags": ["tag_1","tag_2"],
+					"allowToRunWithOptions": true
+				}
+			],
+			"startupTasks": [
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/nothing.fftc"
+				},
+				{	
+					"name": "CustomNameDefinedInManifest",
+					"testPath": "demo/activity-catalog-assets/test_cases/headline1.fftc"
+				},
+				{	
+					"testPath": "demo/activity-catalog-assets/test_cases/headline2.fftc"
+				}
+			],
+			"teardownTasks": [
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/nothing.fftc"
+				},
+				{	
+					"name": "CustomNameDefinedInManifest",
+					"testPath": "demo/activity-catalog-assets/test_cases/headline1.fftc"
+				},
+				{	
+					"testPath": "demo/activity-catalog-assets/test_cases/headline2.fftc"
+				}
+			]
+		},
+		{
+			"name": "demo-Test Topology 2",
+			"actionTitle": "Reserve",
+			"description": "Topology reservation with Startup/Teardown",
+			"reservationDuration": "5",
+			"intervalToRunEndTestCase": "60",
+			"startupTasks": [
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/manifestParams.fftc",
+					"parametersList": [
+						{
+							"name": "manifestParam2",
+							"type": "TEXT",
+							"value": "testValue2"
+						},
+						{
+							"name": "manifestParam3",
+							"type": "TEXT",
+							"value": "testValue3"
+						}
+					]
+				}				
+			],
+			"teardownTasks": [
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/manifestParams.fftc",
+					"parametersList": [
+						{
+							"name": "manifestParam2",
+							"type": "TEXT",
+							"value": "blablablabla"
+						},
+						{
+							"name": "manifestParam3",
+							"type": "TEXT",
+							"value": "testValue3"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "demo-Test Topology 3",
+			"actionTitle": "Reserve",
+			"description": "Topology reservation",
+			"reservationDuration": "60",
+			"automation": [
+				{
+					"testPath": "main/_runlists/DefaultParamRunlist.vrl"
+				},
+				{
+					"testPath": "main/_runlists/RunlistAgentReq.vrl"
+				},
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/NoHeadlineWithDescription.fftc"
+				},
+				{
+					"tags": ["headline"]
+				}
+			]
+		}
+	]
+}
