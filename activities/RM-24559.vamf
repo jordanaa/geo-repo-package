@@ -73,7 +73,7 @@
 			]
 		},
 		{
-			"name": "demo-Test Topology 2",
+			"name": "Test Topology 2",
 			"addRepositoryNamePrefix": true,
 			"actionTitle": "Reserve",
 			"description": "Topology reservation with Startup/Teardown",
