@@ -126,8 +126,13 @@
 					"testPath": "main/_runlists/DefaultParamRunlist.vrl"
 				},
 				{
+					"addRepositoryNamePrefix": true,
 					"testPath": "main/_runlists/RunlistAgentReq.vrl"
 				},
+				{
+					"addRepositoryNamePrefix": true,
+					"testPath": "runlists/runlist_fftc.vrl"
+				}
 				{
 					"addRepositoryNamePrefix": true,
 					"testPath": "activity-catalog-assets/test_cases/NoHeadlineWithDescription.fftc"
