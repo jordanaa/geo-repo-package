@@ -131,7 +131,7 @@
 				},
 				{
 					"addRepositoryNamePrefix": true,
-					"testPath": "runlists/runlist_fftc.vrl"
+					"testPath": "runlists/scl_1.vrl"
 				},
 				{
 					"addRepositoryNamePrefix": true,
