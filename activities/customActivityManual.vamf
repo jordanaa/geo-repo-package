@@ -120,7 +120,14 @@
 			"reservationDuration": "60",
 			"automation": [
 				{
-					"testPath": "main/_runlists/DefaultParamRunlist.vrl"
+					"testPath": "main/_runlists/DefaultParamRunlist.vrl",
+					"parametersList": [
+						{
+							"name": "defaultParameterFile1",
+							"type": "TEXT",
+							"value": "testValue2"
+						}
+					]
 				},
 				{
 					"testPath": "main/_runlists/RunlistAgentReq.vrl"
