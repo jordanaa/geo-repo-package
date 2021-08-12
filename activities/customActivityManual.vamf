@@ -55,8 +55,15 @@
 					"allowToRunWithOptions":true
 				},
 				{
-					"tags": ["tag_1","tag_2"],
-					"allowToRunWithOptions": true
+					"tags": ["tag_1","tag_2","defaultParams"],
+					"allowToRunWithOptions": true,
+					"parametersList": [
+						{
+							"name": "defaultParam1",
+							"value": "nonononoo",
+							"type": "TEXT"
+						}
+					]
 				}
 			],
 			"startupTasks": [
