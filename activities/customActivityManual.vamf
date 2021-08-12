@@ -13,7 +13,7 @@
 				{
 					"testPath": "demo/activity-catalog-assets/test_cases/agentReq1.fftc",
 					"allowToRunWithOptions":true,
-					"parameterFile": "demo/activity-catalog-assets/parameters/parameterFile1.ffpt",
+					"parameterFilePath": "demo/activity-catalog-assets/parameters/parameterFile1.ffpt",
 					"parameters": [
 						{
 							"name": "parameterFile2",
