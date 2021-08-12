@@ -14,7 +14,7 @@
 					"testPath": "demo/activity-catalog-assets/test_cases/agentReq1.fftc",
 					"allowToRunWithOptions":true,
 					"parameterFilePath": "demo/activity-catalog-assets/parameters/parameterFile1.ffpt",
-					"parameters": [
+					"parametersList": [
 						{
 							"name": "parameterFile2",
 							"value": "asuihfasdhfu",
