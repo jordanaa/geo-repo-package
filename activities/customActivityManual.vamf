@@ -11,7 +11,7 @@
 			"reservationDuration": "60",
 			"automation": [
 				{
-					"testPath": "demo/activity-catalog-assets/test_cases/defaultParamFromFile.fftc",
+					"testPath": "demo/activity-catalog-assets/test_cases/runlistParamFile.fftc",
 					"allowToRunWithOptions":true,
 					"parameterFilePath": "demo/activity-catalog-assets/parameters/parameterFile1.ffpt",
 					"parametersList": [
