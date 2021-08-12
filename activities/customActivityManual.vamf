@@ -11,6 +11,10 @@
 			"reservationDuration": "60",
 			"automation": [
 				{
+					"addRepositoryNamePrefix": "false",
+					"testPath": "testName/activity-catalog-assets/test_cases/nothing.fftc"
+				},
+				{
 					"testPath": "demo/activity-catalog-assets/test_cases/runlistParamFile.fftc",
 					"allowToRunWithOptions":true,
 					"parameterFilePath": "demo/activity-catalog-assets/parameters/parameterFile1.ffpt",
@@ -73,15 +77,6 @@
 				}
 			],
 			"startupTasks": [
-				{
-					"testPath": "demo/activity-catalog-assets/test_cases/agentReq1.fftc",
-					"requirements":[
-						{
-							"name": "testreq1",
-							"value": "testvalue2"
-						}
-					]
-				},
 				{
 					"testPath": "demo/activity-catalog-assets/test_cases/nothing.fftc"
 				},
