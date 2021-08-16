@@ -15,10 +15,6 @@
 					"testPath": "demo/activity-catalog-assets/test_cases/sleep_5m.fftc"
 				},
 				{
-					"addRepositoryNamePrefix": "false",
-					"testPath": "testName/activity-catalog-assets/test_cases/nothing.fftc"
-				},
-				{
 					"testPath": "demo/activity-catalog-assets/test_cases/runlistParamFile.fftc",
 					"allowToRunWithOptions":true,
 					"parameterFilePath": "demo/activity-catalog-assets/parameters/parameterFile1.ffpt",
