@@ -12,6 +12,10 @@
 			"automation": [
 				{
 					"addRepositoryNamePrefix": "false",
+					"testPath": "demo/activity-catalog-assets/test_cases/sleep_5m.fftc"
+				},
+				{
+					"addRepositoryNamePrefix": "false",
 					"testPath": "testName/activity-catalog-assets/test_cases/nothing.fftc"
 				},
 				{
@@ -77,6 +81,14 @@
 				}
 			],
 			"startupTasks": [
+				{
+					"addRepositoryNamePrefix": "false",
+					"testPath": "demo/activity-catalog-assets/test_cases/sleep_50m.fftc"
+				},
+				{
+					"addRepositoryNamePrefix": "true",
+					"testPath": "activity-catalog-assets/test_cases/sleep_100m.fftc"
+				},
 				{
 					"testPath": "demo/activity-catalog-assets/test_cases/nothing.fftc"
 				},
