@@ -8,12 +8,12 @@
 			"name": "Topology Logical",
 			"addRepositoryNamePrefix": "false",
 			"actionTitle": "Reserve",
-			"description": "Topology reservation",
+			"description": "Topology reservation with Static Automation only",
 			"reservationDuration": "60",
 			"automation": [
 				{
-					"addRepositoryNamePrefix": "false",
-					"testPath": "demo/activity-catalog-assets/test_cases/sleep_5m.fftc"
+					"addRepositoryNamePrefix": "true",
+					"testPath": "activity-catalog-assets/test_cases/sleep_5m.fftc"
 				},
 				{
 					"testPath": "demo/activity-catalog-assets/test_cases/runlistParamFile.fftc",
@@ -114,7 +114,49 @@
 			"name": "Topology Abstract",
 			"addRepositoryNamePrefix": "false",
 			"actionTitle": "Reserve",
-			"description": "Topology reservation with Startup/Teardown",
+			"description": "Topology reservation with mixed Automation",
+			"reservationDuration": "5",
+			"intervalToRunEndTestCase": "60",
+			"startupTasks": [
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/manifestParams.fftc",
+					"parametersList": [
+						{
+							"name": "manifestParam2",
+							"type": "TEXT",
+							"value": "testValue2"
+						},
+						{
+							"name": "manifestParam3",
+							"type": "TEXT",
+							"value": "testValue3"
+						}
+					]
+				}				
+			],
+			"teardownTasks": [
+				{
+					"testPath": "demo/activity-catalog-assets/test_cases/manifestParams.fftc",
+					"parametersList": [
+						{
+							"name": "manifestParam2",
+							"type": "TEXT",
+							"value": "blablablabla"
+						},
+						{
+							"name": "manifestParam3",
+							"type": "TEXT",
+							"value": "testValue3"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Topology Abstract 2",
+			"addRepositoryNamePrefix": "false",
+			"actionTitle": "Reserve",
+			"description": "Topology reservation with Startup/Teardown and Automation",
 			"reservationDuration": "5",
 			"intervalToRunEndTestCase": "60",
 			"startupTasks": [
