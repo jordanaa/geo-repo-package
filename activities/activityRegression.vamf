@@ -21,6 +21,10 @@
 					"testPath": "activity-catalog-assets/regression/velo-6974_2.fftc"
 				},
 				{
+					"addRepositoryNamePrefix": "false",
+					"testPath": "main/simpleTestCase/test_cases/nothing.fftc"
+				},
+				{
 					"testPath": "demo/activity-catalog-assets/test_cases/runlistParamFile.fftc",
 					"allowToRunWithOptions":true,
 					"parameterFilePath": "demo/activity-catalog-assets/parameters/parameterFile1.ffpt",
