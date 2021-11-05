@@ -1,8 +1,8 @@
 {
-	"name": "Activity Demo",
-	"shortDescription": "Demo Activity with Automation configured",
-	"icon": "customActivityManual.svg",
-	"descriptionMarkdown": "customActivityManual.md",
+	"name": "Activity Regression",
+	"shortDescription": "Activity used for Regression tests",
+	"icon": "activityRegression.svg",
+	"descriptionMarkdown": "activityRegression.md",
 	"topology": [
 		{
 			"name": "demo-Test Topology 1",
