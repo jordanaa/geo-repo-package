@@ -5,7 +5,8 @@
 	"descriptionMarkdown": "activityRegression.md",
 	"topology": [
 		{
-			"name": "demo-Test Topology 1",
+			"name": "Topology Logical",
+			"addRepositoryNamePrefix": "false",
 			"actionTitle": "Reserve",
 			"description": "Topology reservation",
 			"reservationDuration": "60",
@@ -110,7 +111,8 @@
 			]
 		},
 		{
-			"name": "demo-Test Topology 2",
+			"name": "Topology Abstract",
+			"addRepositoryNamePrefix": "false",
 			"actionTitle": "Reserve",
 			"description": "Topology reservation with Startup/Teardown",
 			"reservationDuration": "5",
@@ -147,47 +149,6 @@
 							"value": "testValue3"
 						}
 					]
-				}
-			]
-		},
-		{
-			"name": "demo-Test Topology 3",
-			"actionTitle": "Reserve",
-			"description": "Topology reservation",
-			"reservationDuration": "60",
-			"automation": [
-				{
-					"addRepositoryNamePrefix": "true",
-					"allowToRunWithOptions": "true",
-					"testPath": "activity-catalog-assets/test_cases/scl_1.fftc"
-				},
-				{
-					"allowToRunWithOptions": "true",
-					"testPath": "demo/activity-catalog-assets/test_cases/scl_2.fftc"
-				},
-				{
-					"addRepositoryNamePrefix": "true",
-					"allowToRunWithOptions": "true",
-					"testPath": "activity-catalog-assets/test_cases/topologyParam.fftc"
-				},
-				{
-					"testPath": "main/_runlists/DefaultParamRunlist.vrl",
-					"parametersList": [
-						{
-							"name": "defaultParameterFile1",
-							"type": "TEXT",
-							"value": "testValue2"
-						}
-					]
-				},
-				{
-					"testPath": "main/_runlists/RunlistAgentReq.vrl"
-				},
-				{
-					"testPath": "demo/activity-catalog-assets/test_cases/NoHeadlineWithDescription.fftc"
-				},
-				{
-					"tags": ["headline"]
 				}
 			]
 		}
