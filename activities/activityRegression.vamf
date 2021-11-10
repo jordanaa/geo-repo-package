@@ -79,7 +79,11 @@
 							"value": "testValue3"
 						}
 					]
-				}				
+				},
+				{
+					"addRepositoryNamePrefix": "true",
+					"testPath": "activity-catalog-assets/test_cases/agentReq1.fftc"
+				}
 			],
 			"teardownTasks": [
 				{
