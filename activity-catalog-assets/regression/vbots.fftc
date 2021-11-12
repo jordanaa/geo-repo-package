@@ -109,6 +109,18 @@
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
+                <item guid="b8bad340-e8a7-4063-877a-12198b24beef" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>testValue3 = param(&apos;topologyResourceId&apos;)</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="a2625e3f-f6bc-4784-9481-b58c1e60217b" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>print(testValue3)</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
             </steps>
         </item>
     </procedures>
