@@ -66,7 +66,7 @@
                 </item>
                 <item guid="a8c1f23e-8e2f-46af-a68c-ec2297436c82" action="command" session="python" useFieldsInCommand="false">
                     <command>
-                        <body>envVar = os.environ()</body>
+                        <body>envVar = os.environ</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
