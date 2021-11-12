@@ -88,6 +88,18 @@
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
+                <item guid="d4429883-1369-4409-85c1-5fb5350f8144" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>testValue2 = info(&apos;env&apos;, &apos;VELOCITY_PARAM_resourceId&apos;)</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="830eb716-5a59-4b46-8c68-d58de08084d9" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>print(testValue2)</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
             </steps>
         </item>
     </procedures>
