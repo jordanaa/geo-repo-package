@@ -45,6 +45,10 @@
 							"value": "testvalue2"
 						}
 					]
+				},
+				{
+					"testPath": "eduard-repo-package/runlists/scl_1.vrl",
+					"parameterFilePath": "main/simpleTestCase/libraries/parameters.ffpt"
 				}
 			]
 		},
