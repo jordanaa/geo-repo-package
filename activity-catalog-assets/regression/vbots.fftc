@@ -78,7 +78,7 @@
                 </item>
                 <item guid="e6ec61bf-2456-4432-9fec-5c1b14ba9016" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>testValue = velocity(&quot;property&quot;, &quot;-id&quot;, &quot;aaa&quot;, &quot;ipAddress&quot;)</body>
+                        <body>testValue = velocity(&quot;property&quot;, &quot;-name&quot;, &quot;aaa&quot;, &quot;ipAddress&quot;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
