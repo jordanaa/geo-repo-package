@@ -4,6 +4,15 @@
         <tags>vbots</tags>
         <language>Python</language>
     </general>
+    <execution>
+        <parameters version="8.6.0.202108170724">
+            <parameters escape="true">
+                <parameters xmlns:pt="http://www.fnfr.com/schemas/parameterTree">
+                    <param_resourceId/>
+                </parameters>
+            </parameters>
+        </parameters>
+    </execution>
     <procedures>
         <item name="main">
             <steps>
