@@ -90,7 +90,7 @@
                 </item>
                 <item guid="d4429883-1369-4409-85c1-5fb5350f8144" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>testValue2 = info(&apos;env&apos;, &apos;VELOCITY_PARAM_resourceId&apos;)</body>
+                        <body>testValue2 = info(&apos;env&apos;, &apos;VELOCITY_PARAM_RESERVATION_ID​&apos;)</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
