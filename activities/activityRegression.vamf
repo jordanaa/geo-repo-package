@@ -116,36 +116,14 @@
 			"intervalToRunEndTestCase": "60",
 			"startupTasks": [
 				{
-					"testPath": "demo/activity-catalog-assets/test_cases/manifestParams.fftc",
-					"parametersList": [
-						{
-							"name": "manifestParam2",
-							"type": "TEXT",
-							"value": "testValue2"
-						},
-						{
-							"name": "manifestParam3",
-							"type": "TEXT",
-							"value": "testValue3"
-						}
-					]
+					"addRepositoryNamePrefix": "true",
+					"testPath": "activity-catalog-assets/regression/velo-7159_1.fftc"
 				}				
 			],
 			"teardownTasks": [
 				{
-					"testPath": "demo/activity-catalog-assets/test_cases/manifestParams.fftc",
-					"parametersList": [
-						{
-							"name": "manifestParam2",
-							"type": "TEXT",
-							"value": "blablablabla"
-						},
-						{
-							"name": "manifestParam3",
-							"type": "TEXT",
-							"value": "testValue3"
-						}
-					]
+					"addRepositoryNamePrefix": "true",
+					"testPath": "activity-catalog-assets/regression/velo-7159_1.fftc"
 				}
 			]
 		}
