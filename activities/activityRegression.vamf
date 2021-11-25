@@ -114,6 +114,18 @@
 			"description": "Topology reservation with Startup/Teardown and Automation",
 			"reservationDuration": "5",
 			"intervalToRunEndTestCase": "60",
+			"automation": [
+				{
+					"addRepositoryNamePrefix": "false",
+					"name": "Name1",
+					"testPath": "main/simpleTestCase/test_cases/nothing.fftc"
+				},
+				{
+					"addRepositoryNamePrefix": "false",
+					"name": "Name2",
+					"testPath": "main/simpleTestCase/test_cases/nothing.fftc"
+				}
+			]
 			"startupTasks": [
 				{
 					"addRepositoryNamePrefix": "true",
