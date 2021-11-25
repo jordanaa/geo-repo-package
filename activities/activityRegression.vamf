@@ -125,7 +125,7 @@
 					"name": "Name2",
 					"testPath": "main/simpleTestCase/test_cases/nothing.fftc"
 				}
-			]
+			],
 			"startupTasks": [
 				{
 					"addRepositoryNamePrefix": "true",
