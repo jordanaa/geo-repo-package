@@ -12,7 +12,7 @@
 			"reservationDuration": "60",
 			"automation": [
 				{       
-					"allowToRunWithOptions":true,
+					"allowToRunWithOptions":"true",
 					"addRepositoryNamePrefix": "true",
 					"testPath": "activity-catalog-assets/regression/velo-6974_1.fftc"
 				},
