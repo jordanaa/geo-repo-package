@@ -53,39 +53,7 @@
 				}
 			]
 		},
-		{
-			"name": "Topology Logical2",
-			"addRepositoryNamePrefix": "false",
-			"actionTitle": "Reserve",
-			"description": "Topology reservation with Static Automation only",
-			"reservationDuration": "60",
-			"automation": [
-				{       
-					"allowToRunWithOptions":"true",
-					"addRepositoryNamePrefix": "true",
-					"testPath": "activity-catalog-assets/regression/velo-6974_1.fftc"
-				},
-				{
-					"addRepositoryNamePrefix": "true",
-					"name": "Name Defined In Manifest",
-					"testPath": "activity-catalog-assets/regression/velo-6974_2.fftc"
-				},
-				{
-					"addRepositoryNamePrefix": "false",
-					"testPath": "main/simpleTestCase/test_cases/nothing.fftc"
-				},
-				{
-					"testPath": "demo/activity-catalog-assets/test_cases/runlistParamFile.fftc",
-					"allowToRunWithOptions":true,
-					"parameterFilePath": "demo/activity-catalog-assets/parameters/parameterFile1.ffpt",
-					"parametersList": [
-						{
-							"name": "parameterFile2",
-							"value": "asuihfasdhfu",
-							"type": "TEXT"
-						}
-					]
-				},
+		
 		{
 			"name": "Topology Abstract",
 			"addRepositoryNamePrefix": "false",
