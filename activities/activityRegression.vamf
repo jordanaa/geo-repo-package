@@ -17,6 +17,22 @@
 				},
 				{
 					"addRepositoryNamePrefix": "true",
+					"testPath": "activity-catalog-assets/regression/test1_head.fftc"
+				},
+				{
+					"addRepositoryNamePrefix": "true",
+					"testPath": "activity-catalog-assets/regression/test2_head.fftc"
+				},
+				{
+					"addRepositoryNamePrefix": "true",
+					"testPath": "activity-catalog-assets/regression/test3_no_head.fftc"
+				},
+				{
+					"addRepositoryNamePrefix": "true",
+					"testPath": "activity-catalog-assets/regression/test4_no_head.fftc"
+				},
+				{
+					"addRepositoryNamePrefix": "true",
 					"name": "Name Defined In Manifest",
 					"testPath": "activity-catalog-assets/regression/velo-6974_2.fftc"
 				},
