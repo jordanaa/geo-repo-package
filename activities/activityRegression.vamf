@@ -17,6 +17,7 @@
 				},
 				{
 					"addRepositoryNamePrefix": "true",
+					"name": "Test 1 Head",
 					"testPath": "activity-catalog-assets/regression/test1_head.fftc"
 				},
 				{
