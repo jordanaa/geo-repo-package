@@ -11,14 +11,13 @@
 			"description": "Topology reservation with Static Automation only",
 			"reservationDuration": "60",
 			"automation": [
-				{       
-					"allowToRunWithOptions":"true",
+				{
 					"addRepositoryNamePrefix": "true",
 					"testPath": "activity-catalog-assets/regression/velo-6974_1.fftc"
 				},
 				{
 					"addRepositoryNamePrefix": "true",
-					"name" : "Name Defined In Manifest"
+					"name": "Name Defined In Manifest",
 					"testPath": "activity-catalog-assets/regression/velo-6974_2.fftc"
 				},
 				{
@@ -53,7 +52,6 @@
 				}
 			]
 		},
-		
 		{
 			"name": "Topology Abstract",
 			"addRepositoryNamePrefix": "false",
