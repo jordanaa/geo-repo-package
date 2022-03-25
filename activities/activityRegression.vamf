@@ -11,7 +11,8 @@
 			"description": "Topology reservation with Static Automation only",
 			"reservationDuration": "60",
 			"automation": [
-				{
+				{       
+					"allowToRunWithOptions":true,
 					"addRepositoryNamePrefix": "true",
 					"testPath": "activity-catalog-assets/regression/velo-6974_1.fftc"
 				},
