@@ -18,7 +18,7 @@
 				},
 				{
 					"addRepositoryNamePrefix": "true",
-					"name": "Name Defined In Manifest",
+					
 					"testPath": "activity-catalog-assets/regression/velo-6974_2.fftc"
 				},
 				{
