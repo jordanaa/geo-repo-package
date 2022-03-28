@@ -13,6 +13,7 @@
 			"automation": [
 				{
 					"addRepositoryNamePrefix": "true",
+					"allowToRunWithOptions":true,
 					"testPath": "activity-catalog-assets/regression/velo-6974_1.fftc"
 				},
 				{
