@@ -16,6 +16,9 @@
 					"testPath": "activity-catalog-assets/regression/velo-6974_1.fftc"
 				},
 				{
+                                        "tags": ["tag_1", "tag_2", "tag_3"]
+                                },
+				{
 					"addRepositoryNamePrefix": "true",
 					"name": "Test 1 Head",
 					"testPath": "activity-catalog-assets/regression/test1_head.fftc"
