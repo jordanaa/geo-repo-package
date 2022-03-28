@@ -29,6 +29,12 @@
 				{
 					"addRepositoryNamePrefix": "true",
 					"allowToRunWithOptions":true,
+					"testPath": "runlists/runlist_param.vrl"
+				},
+				
+				{
+					"addRepositoryNamePrefix": "true",
+					"allowToRunWithOptions":true,
 					"testPath": "sleep/sleep_1m.fftc"
 				},
 				
