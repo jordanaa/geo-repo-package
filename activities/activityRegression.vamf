@@ -88,6 +88,11 @@
 					"testPath": "activity-catalog-assets/regression/velo-7159_2.fftc"
 				},
 				{
+					"addRepositoryNamePrefix": "true",
+					
+					"testPath": "runlists/runlist_fftc.vrl"
+				},
+				{
 					"testPath": "demo/activity-catalog-assets/test_cases/manifestParams.fftc",
 					"parametersList": [
 						{
