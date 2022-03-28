@@ -17,7 +17,8 @@
 					"testPath": "activity-catalog-assets/regression/velo-6974_1.fftc"
 				},
 				{
-					"tags": ["tag_1", "tag_2", "tag_3"]
+					"tags": ["tag_1", "tag_2", "tag_3"],
+					"allowToRunWithOptions":true
 				},
 				
 				{
