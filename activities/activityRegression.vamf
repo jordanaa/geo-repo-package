@@ -65,9 +65,9 @@
 					"testPath": "main/simpleTestCase/test_cases/nothing.fftc"
 				},
 				{
-					"testPath": "demo/activity-catalog-assets/test_cases/runlistParamFile.fftc",
+					"testPath": "activity-catalog-assets/test_cases/runlistParamFile.fftc",
 					"allowToRunWithOptions":true,
-					"parameterFilePath": "demo/activity-catalog-assets/parameters/parameterFile1.ffpt",
+					"parameterFilePath": "activity-catalog-assets/parameters/parameterFile1.ffpt",
 					"parametersList": [
 						{
 							"name": "parameterFile2",
