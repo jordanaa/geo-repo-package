@@ -64,7 +64,7 @@
 					"addRepositoryNamePrefix": "false",
 					"testPath": "main/simpleTestCase/test_cases/nothing.fftc"
 				},
-				{
+				{	"addRepositoryNamePrefix": "true",
 					"testPath": "activity-catalog-assets/test_cases/runlistParamFile.fftc",
 					"allowToRunWithOptions":true,
 					"parameterFilePath": "activity-catalog-assets/parameters/parameterFile1.ffpt",
