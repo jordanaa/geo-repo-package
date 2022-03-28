@@ -28,6 +28,17 @@
 				},
 				{
 					"addRepositoryNamePrefix": "true",
+					"allowToRunWithOptions":true,
+					"testPath": "sleep/sleep_1m.fftc"
+				},
+				
+				{	
+					"addRepositoryNamePrefix": "true",
+					"allowToRunWithOptions":true,
+					"testPath": "activity-catalog-assets/test_cases/nothing.fftc"
+				},
+				{
+					"addRepositoryNamePrefix": "true",
 					"testPath": "activity-catalog-assets/regression/test2_head.fftc"
 				},
 				{
