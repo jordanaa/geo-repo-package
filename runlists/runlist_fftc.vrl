@@ -11,12 +11,12 @@
     "ignoredRequirements": [
       
     ],
-    "parameterFilePath": null,
+    "parameterFilePath": "activity-catalog-assets/parameters/parameterFile1.ffpt",
     "parameters": [
     
-    "name": "param1",
+    "name": "parameterFile1",
     "type": "TEXT",
-    "value": "value"
+    "value": "value_geo"
       
     ],
     "requirements": [
