@@ -1,5 +1,6 @@
 {
   "general": {
+    "tags" : ["tag_1"],
     "autoExtendReservation": true,
     "callbackURL": null,
     "createdDate": 0,
