@@ -29,7 +29,7 @@
 				{
 					"addRepositoryNamePrefix": "true",
 					"allowToRunWithOptions":true,
-					"testPath": "runlists/runlist_param.vrl"
+					"testPath": "runlists/runlist_fftc.vrl"
 				},
 				
 				{
