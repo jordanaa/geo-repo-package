@@ -13,6 +13,10 @@
     ],
     "parameterFilePath": null,
     "parameters": [
+    
+    "name": "param1",
+    "type": "TEXT",
+    "value": "value"
       
     ],
     "requirements": [
