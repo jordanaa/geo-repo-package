@@ -21,7 +21,7 @@
                 </item>
                 <item guid="01fe5c03-cec0-4a80-b0ed-6de5b1ebb323" action="eval" useFieldsInCommand="false">
                     <command>
-                        <body>print([param("${topology/resources/PC1/ipAddress}")])</body>
+                        <body>print([param("param1")])</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
