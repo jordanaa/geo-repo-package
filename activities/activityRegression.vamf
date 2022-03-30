@@ -25,14 +25,8 @@
 					"addRepositoryNamePrefix": "true",
 					"allowToRunWithOptions":true,
 					"testPath": "runlists/runlist_fftc.vrl",
-					"parameterFilePath": "activity-catalog-assets/parameters/parameterFile1.ffpt",
-					"parametersList": [
-						{
-							"name": "parameterFile1",
-							"value": "asuihfasdhfu",
-							"type": "TEXT"
-						}
-					]
+					"parameterFilePath": "activity-catalog-assets/parameters/parameterFile1.ffpt"
+					
 				},
 				
 				
