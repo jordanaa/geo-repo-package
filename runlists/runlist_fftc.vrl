@@ -14,10 +14,7 @@
     "parameterFilePath": "activity-catalog-assets/parameters/parameterFile1.ffpt",
     "parameters": [
     
-    "name": "parameterFile1",
-    "type": "TEXT",
-    "value": "value_geo"
-      
+    
     ],
     "requirements": [
       
