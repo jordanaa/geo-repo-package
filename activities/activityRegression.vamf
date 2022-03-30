@@ -40,7 +40,14 @@
 					"addRepositoryNamePrefix": "true",
 					"allowToRunWithOptions":true,
 					"testPath": "sleep/sleep_1m.fftc",
-					"parameterFilePath": "geo-repo-package/activity-catalog-assets/parameters/parameterFile1.ffpt"
+					"parameterFilePath": "geo-repo-package/activity-catalog-assets/parameters/parameterFile1.ffpt",
+					"parametersList": [
+						{
+							"name": "parameterFile1",
+							"value": "ana are mere",
+							"type": "TEXT"
+						}
+					]
 					
 				},
 				
