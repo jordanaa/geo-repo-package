@@ -36,7 +36,7 @@
 					"addRepositoryNamePrefix": "true",
 					"allowToRunWithOptions":true,
 					"testPath": "sleep/sleep_1m.fftc",
-					"parameterFilePath": "activity-catalog-assets/parameters/parameterFile1.ffpt"
+					"parameterFilePath": "geo-repo-package/activity-catalog-assets/parameters/parameterFile1.ffpt"
 					
 				},
 				
