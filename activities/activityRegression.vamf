@@ -47,6 +47,12 @@
 							"value": "ana are mere",
 							"type": "TEXT"
 						}
+					],
+					"requirements":[
+						{
+							"name": "testreq1",
+							"value": "testvalue2"
+						}
 					]
 					
 				},
