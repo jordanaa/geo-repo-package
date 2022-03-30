@@ -50,8 +50,8 @@
 					],
 					"requirements":[
 						{
-							"name": "pool",
-							"value": "driver"
+							"name": "test",
+							"value": "testt"
 						}
 					]
 					
