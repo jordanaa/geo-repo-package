@@ -24,13 +24,10 @@
 				{
 					"addRepositoryNamePrefix": "true",
 					"allowToRunWithOptions":true,
-					"testPath": "runlists/runlist_fftc.vrl"
+					"testPath": "runlists/runlist_fftc.vrl",
+					"parameterFilePath": "geo-repo-package/activity-catalog-assets/parameters/parameterFile2.ffpt"
 				},
-				{
-					"addRepositoryNamePrefix": "true",
-					"allowToRunWithOptions":true,
-					"testPath": "runlists/runlist_fftc.vrl"
-				},
+				
 				
 				{
 					"addRepositoryNamePrefix": "true",
