@@ -9,7 +9,7 @@
             <steps>
                 <item guid="d2b1400c-1e38-444f-ab70-bc64486e88f6" action="sleep">
                     <command>
-                        <body>60</body>
+                        <body>2</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
