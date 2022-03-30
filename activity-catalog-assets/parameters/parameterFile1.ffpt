@@ -4,6 +4,7 @@
         <parameters xmlns:pt="http://www.fnfr.com/schemas/parameterTree">
             <parameterFile1>file1Value1</parameterFile1>
             <parameterFile2>file1Value2</parameterFile2>
+            <param1>${topology/resources/PC1/ipAddress}</param1>
         </parameters>
     </parameters>
 </ParameterTree>
