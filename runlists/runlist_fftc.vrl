@@ -18,8 +18,8 @@
     ],
     "requirements": [
             {
-							"name": "testreq1",
-							"value": "testvalue2"
+							"name": "pool",
+							"value": "driver"
 						}
       
     ],
