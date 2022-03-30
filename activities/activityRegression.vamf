@@ -24,7 +24,8 @@
 				{
 					"addRepositoryNamePrefix": "true",
 					"allowToRunWithOptions":true,
-					"testPath": "runlists/runlist_fftc.vrl"
+					"testPath": "runlists/runlist_fftc.vrl",
+					"parameterFilePath": "activity-catalog-assets/parameters/parameterFile1.ffpt",
 				},
 				{
 					"addRepositoryNamePrefix": "true",
