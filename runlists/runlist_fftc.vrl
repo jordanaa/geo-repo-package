@@ -11,7 +11,7 @@
     "ignoredRequirements": [
       
     ],
-    "parameterFilePath": "activity-catalog-assets/parameters/parameterFile1.ffpt",
+    "parameterFilePath": "geo-repo-package/activity-catalog-assets/parameters/parameterFile1.ffpt",
     "parameters": [
     
     
@@ -41,7 +41,7 @@
         "parameters": [
           
         ],
-        "path": "demo/activity-catalog-assets/test_cases/nothing.fftc",
+        "path": "geo-repo-package/activity-catalog-assets/test_cases/nothing.fftc",
         "requirements": [
           
         ],
@@ -67,7 +67,7 @@
         "parameters": [
           
         ],
-        "path": "main/sleep/sleep_1m.fftc",
+        "path": "main/my_project/test_cases/ping_tc.fftc",
         "requirements": [
           
         ],
