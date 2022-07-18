@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<testCase version="9.1.0.202207112102">
+    <general>
+        <language>Python</language>
+        <xPathVersion>XPATH31</xPathVersion>
+    </general>
+    <procedures>
+        <item name="main">
+            <steps>
+                <item guid="d2b1400c-1e38-444f-ab70-bc64486e88f6" action="sleep">
+                    <command>
+                        <body>300</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+            </steps>
+        </item>
+    </procedures>
+</testCase>
