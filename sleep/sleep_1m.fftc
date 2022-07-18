@@ -13,18 +13,7 @@
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                 </item>
-                 <item guid="50b35950-413c-464c-90f4-213dafa0ba53" action="eval" useFieldsInCommand="false">
-                    <command>
-                        <body>print([param("parameterFile1")])</body>
-                    </command>
-                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
-                </item>
-                <item guid="01fe5c03-cec0-4a80-b0ed-6de5b1ebb323" action="eval" useFieldsInCommand="false">
-                    <command>
-                        <body>print([param("param1")])</body>
-                    </command>
-                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
-                </item>
+                
             </steps>
         </item>
     </procedures>
