@@ -58,12 +58,7 @@
 							"type": "TEXT"
 						}
 					],
-					"requirements":[
-						{
-							"name": "test",
-							"value": "testt"
-						}
-					]
+					
 					
 				},
 				
