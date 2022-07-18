@@ -73,6 +73,8 @@
         ],
         "path": "geo-repo-package/sleep/sleep_1m.fftc",
         "requirements": [
+	"name": "testreq1",
+	"value": "testvalue2"
           
         ],
         "reservationId": null,
