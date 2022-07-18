@@ -19,6 +19,11 @@
 				{
 					"addRepositoryNamePrefix": "true",
 					"allowToRunWithOptions":true,
+					"testPath": "activity-catalog-assets/test_cases/topologyParam.fftc.fftc"
+				},
+				{
+					"addRepositoryNamePrefix": "true",
+					"allowToRunWithOptions":true,
 					"testPath": "sleep/sleep_5min.fftc"
 				},
 				{
