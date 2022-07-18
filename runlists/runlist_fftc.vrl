@@ -20,9 +20,6 @@
             {
 						"name": "pool",
 						"value": "driver"
-						},
-						{"name":"testreq1",
-						"value":"testvalue2"
 						}
       
     ],
