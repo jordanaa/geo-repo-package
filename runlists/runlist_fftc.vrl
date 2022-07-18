@@ -17,10 +17,7 @@
     
     ],
     "requirements": [
-            {
-						"name": "pool",
-						"value": "driver"
-						}
+            
       
     ],
     "reservationId": null,
