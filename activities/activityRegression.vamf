@@ -42,7 +42,14 @@
 							"value": "asuihfasdhfu",
 							"type": "TEXT"
 						}
+					],
+					"requirements":[
+						{
+							"name": "testreq1",
+							"value": "testvalue2"
+						}
 					]
+					
 				},
 				
 				
