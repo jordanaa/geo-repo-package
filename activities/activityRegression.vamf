@@ -28,7 +28,13 @@
 				},
 				{
 					"tags": ["tag_1", "tag_2", "tag_3","runlist_tag"],
-					"allowToRunWithOptions":true
+					"allowToRunWithOptions":true,
+					"requirements":[
+						{
+							"name": "testreq1",
+							"value": "testvalue2"
+						}
+					]
 				},
 				
 				{
