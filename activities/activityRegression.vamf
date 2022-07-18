@@ -17,6 +17,11 @@
 					"testPath": "activity-catalog-assets/regression/velo-6974_1.fftc"
 				},
 				{
+					"addRepositoryNamePrefix": "true",
+					"allowToRunWithOptions":true,
+					"testPath": "sleep/sleep_5min.fftc"
+				},
+				{
 					"tags": ["tag_1", "tag_2", "tag_3"],
 					"allowToRunWithOptions":true
 				},
