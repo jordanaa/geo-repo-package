@@ -1,0 +1,86 @@
+{
+  "general": {
+    "tags" : ["tag_1"],
+    "autoExtendReservation": true,
+    "callbackURL": null,
+    "createdDate": 0,
+    "customParameterTypes": [
+      
+    ],
+    "detailLevel": "ALL_ISSUES_ERROR_STEPS",
+    "ignoredRequirements": [
+      
+    ],
+    "parameterFilePath": "geo-repo-package/activity-catalog-assets/parameters/parameterFile1.ffpt",
+    "parameters": [
+    
+    
+    ],
+    "requirements": [
+            
+      
+    ],
+    "reservationId": null,
+    "topologyId": null,
+    "topologyPath": null,
+    "topologyVersionId": null
+  },
+  "main": {
+    "items": [
+      {
+        "customParameterTypes": [
+          
+        ],
+        "files": [
+          
+        ],
+        "ignoredRequirements": [
+          
+        ],
+        "itemId": null,
+        "parameterFilePath": null,
+        "parameters": [
+          
+        ],
+        "path": "geo-repo-package/activity-catalog-assets/test_cases/nothing.fftc",
+        "requirements": [
+          
+        ],
+        "reservationId": null,
+        "testbed": null,
+        "topologyName": null,
+        "topologyId": null,
+        "topologyVersionId": null,
+        "type": "SCRIPT"
+      },
+      {
+        "customParameterTypes": [
+          
+        ],
+        "files": [
+          
+        ],
+        "ignoredRequirements": [
+          
+        ],
+        "itemId": null,
+        "parameterFilePath": null,
+        "parameters": [
+          
+        ],
+        "path": "geo-repo-package/sleep/sleep_1m.fftc",
+        "requirements": [
+	
+        ],
+        "reservationId": null,
+        "testbed": null,
+        "topologyName": null,
+        "topologyId": null,
+        "topologyVersionId": null,
+        "type": "SCRIPT"
+      }
+    ],
+    "runMode": "SEQUENTIAL",
+    "terminateOnItemFail": false
+  }
+}
