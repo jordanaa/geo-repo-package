@@ -36,7 +36,7 @@
 				{
 					"addRepositoryNamePrefix": "true",
 					"allowToRunWithOptions":true,
-					"testPath": "geo-repo-package2/sleep/sleep_5min.fftc"
+					"testPath": "sleep/sleep_5min.fftc"
 				}
 			]
 		},
@@ -57,11 +57,7 @@
 					"allowToRunWithOptions":true,
 					"testPath": "activity-catalog-assets/test_cases/topologyParam.fftc"
 				},
-				{
-					"addRepositoryNamePrefix": "true",
-					"allowToRunWithOptions":true,
-					"testPath": "sleep/sleep_5min.fftc"
-				},
+				
 				{
 					"tags": ["tag_1", "tag_2", "tag_3","runlist_tag"],
 					"allowToRunWithOptions":true,
@@ -177,6 +173,11 @@
 				{
 					"testPath": "eduard-repo-package/runlists/scl_1.vrl",
 					"parameterFilePath": "main/simpleTestCase/libraries/parameters.ffpt"
+				},
+				{
+					"addRepositoryNamePrefix": "true",
+					"allowToRunWithOptions":true,
+					"testPath": "geo-repo-package2/sleep/sleep_5min.fftc"
 				}
 			]
 		},
