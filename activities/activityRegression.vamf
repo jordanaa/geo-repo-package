@@ -37,7 +37,13 @@
 					"addRepositoryNamePrefix": "true",
 					"allowToRunWithOptions":true,
 					"testPath": "sleep/sleep_5min.fftc"
+				},
+				{
+					"addRepositoryNamePrefix": "true",
+					"allowToRunWithOptions":true,
+					"testPath": "sleep/sleep_1m.fftc"
 				}
+				
 			]
 		},
 		{
