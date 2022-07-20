@@ -181,9 +181,9 @@
 					"parameterFilePath": "main/simpleTestCase/libraries/parameters.ffpt"
 				},
 				{
-					"addRepositoryNamePrefix": "true",
+					"addRepositoryNamePrefix": "false",
 					"allowToRunWithOptions":true,
-					"testPath": "geo-repo-package/sleep/sleep_5min.fftc"
+					"testPath": "geo-repo-package2/sleep/sleep_5min.fftc"
 				}
 			]
 		},
