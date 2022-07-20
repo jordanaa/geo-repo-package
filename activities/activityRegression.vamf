@@ -183,7 +183,7 @@
 				{
 					"addRepositoryNamePrefix": "true",
 					"allowToRunWithOptions":true,
-					"testPath": "geo-repo-package2/sleep/sleep_5min.fftc"
+					"testPath": "geo-repo-package/sleep/sleep_5min.fftc"
 				}
 			]
 		},
