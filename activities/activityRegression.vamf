@@ -50,7 +50,7 @@
 			"name": "Topology Logical",
 			"addRepositoryNamePrefix": "false",
 			"actionTitle": "Reserve",
-			"description": "Topology reservation with Static Automation only",
+			"description": "Topology reservation with mixed Automation ",
 			"reservationDuration": "60",
 			"automation": [
 				{
