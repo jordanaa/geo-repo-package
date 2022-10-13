@@ -203,7 +203,7 @@
 				{
 					"addRepositoryNamePrefix": "true",
 					"allowToRunWithOptions":true,
-					"name": "Name Defined In Manifest for velo-6874",
+					"name": "Name Defined In Manifest for velo-6974_2",
 					"testPath": "activity-catalog-assets/regression/velo_6974_2.fftc"
 				}
 				
