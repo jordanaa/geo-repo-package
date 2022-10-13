@@ -205,7 +205,7 @@
 					"allowToRunWithOptions":true,
 					"name": "Name Defined In Manifest for velo-6874",
 					"testPath": "activity-catalog-assets/regression/velo_6974_2.fftc"
-				},
+				}
 				
 			]
 		},
