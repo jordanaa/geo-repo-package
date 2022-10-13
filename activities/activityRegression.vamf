@@ -189,6 +189,20 @@
 			]
 		},
 		{
+			"name": "Topology Regression",
+			"addRepositoryNamePrefix": "false",
+			"actionTitle": "Reserve",
+			"description": "Topology reservation for regression testing",
+			"reservationDuration": "60",
+			"automation": [
+				{
+					"addRepositoryNamePrefix": "true",
+					"allowToRunWithOptions":true,
+					"testPath": "activity-catalog-assets/regression/velo-6974_1.fftc"
+				}
+			]
+		},
+		{
 			"name": "Topology Abstract",
 			"addRepositoryNamePrefix": "false",
 			"actionTitle": "Reserve",
