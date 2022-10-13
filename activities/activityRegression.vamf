@@ -205,6 +205,25 @@
 					"allowToRunWithOptions":true,
 					"name": "Name Defined In Manifest for velo-6974_2",
 					"testPath": "activity-catalog-assets/regression/velo_6974_2.fftc"
+				},
+				
+				{
+					"tags": ["tag_1", "tag_2", "tag_3","runlist_tag"],
+					"allowToRunWithOptions":true,
+					"requirements":[
+						{
+							"name": "testreq1",
+							"value": "testvalue2"
+						}
+					],
+					"parameterFilePath": "geo-repo-package/activity-catalog-assets/parameters/parameterFile1.ffpt",
+					"parametersList": [
+						{
+							"name": "parameterFile1",
+							"value": "ana are mere",
+							"type": "TEXT"
+						}
+					]
 				}
 				
 			]
