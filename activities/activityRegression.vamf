@@ -139,6 +139,7 @@
 				},
 				{
 					"addRepositoryNamePrefix": "true",
+					"name": "Name Defined In Manifest",
 					"testPath": "activity-catalog-assets/regression/test3_no_head.fftc"
 				},
 				{
