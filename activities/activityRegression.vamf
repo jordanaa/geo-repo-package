@@ -198,8 +198,15 @@
 				{
 					"addRepositoryNamePrefix": "true",
 					"allowToRunWithOptions":true,
-					"testPath": "activity-catalog-assets/regression/velo-6974_1.fftc"
-				}
+					"testPath": "activity-catalog-assets/regression/velo_6974_1.fftc"
+				},
+				{
+					"addRepositoryNamePrefix": "true",
+					"allowToRunWithOptions":true,
+					"name": "Name Defined In Manifest for velo-6874",
+					"testPath": "activity-catalog-assets/regression/velo_6974_2.fftc"
+				},
+				
 			]
 		},
 		{
