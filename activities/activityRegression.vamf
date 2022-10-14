@@ -82,22 +82,6 @@
 						}
 					]
 				},
-				{
-					"tags": [ "tag_3"],
-					"allowToRunWithOptions":true,
-					"requirements":[
-						{
-						}
-					],
-					
-					"parametersList": [
-						{
-							"name": "parameterFile1",
-							"value": "ana are mere",
-							"type": "TEXT"
-						}
-					]
-				},
 				
 				{
 					"addRepositoryNamePrefix": "true",
@@ -229,7 +213,7 @@
 				},
 				
 				{
-					"tags": ["tag_1", "tag_2", "tag_3","runlist_tag"],
+					"tags": ["tag_1", "tag_2","runlist_tag"],
 					"allowToRunWithOptions":true,
 					"requirements":[
 						{
@@ -238,6 +222,23 @@
 						}
 					],
 					"parameterFilePath": "geo-repo-package/activity-catalog-assets/parameters/parameterFile1.ffpt",
+					"parametersList": [
+						{
+							"name": "parameterFile1",
+							"value": "ana are mere",
+							"type": "TEXT"
+						}
+					]
+				},
+				
+				{
+					"tags": [ "tag_3"],
+					"allowToRunWithOptions":true,
+					"requirements":[
+						{
+						}
+					],
+					
 					"parametersList": [
 						{
 							"name": "parameterFile1",
