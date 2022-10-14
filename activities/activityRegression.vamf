@@ -82,6 +82,22 @@
 						}
 					]
 				},
+				{
+					"tags": [ "tag_3"],
+					"allowToRunWithOptions":true,
+					"requirements":[
+						{
+						}
+					],
+					
+					"parametersList": [
+						{
+							"name": "parameterFile1",
+							"value": "ana are mere",
+							"type": "TEXT"
+						}
+					]
+				},
 				
 				{
 					"addRepositoryNamePrefix": "true",
