@@ -256,7 +256,7 @@
 					],
 					
 					"parametersList": [ {
-							"name": "parameterFile1",
+							"name": "defaultParam1",
 							"value": "parameter_from_vamf",
 							"type": "TEXT"
 						}
