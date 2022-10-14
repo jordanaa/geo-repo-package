@@ -203,6 +203,11 @@
 				{
 					"addRepositoryNamePrefix": "true",
 					"allowToRunWithOptions":true,
+					"testPath": "activity-catalog-assets/test_cases/topologyParam.fftc
+				},
+				{
+					"addRepositoryNamePrefix": "true",
+					"allowToRunWithOptions":true,
 					"name": "Name Defined In Manifest for velo-6974_2",
 					"testPath": "activity-catalog-assets/regression/velo_6974_2.fftc"
 				},
