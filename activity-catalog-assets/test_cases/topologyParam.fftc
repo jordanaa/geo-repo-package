@@ -8,7 +8,7 @@
         <parameters version="8.5.0.202104211757">
             <parameters escape="true">
                 <parameters xmlns:pt="http://www.fnfr.com/schemas/parameterTree">
-                    <defaultParam1>${topology/resources/Test Abs Res 3/ipAddress}</defaultParam1>
+                    <defaultParam1>${topology/resources/abc-123/ipAddress}</defaultParam1>
                     <defaultParam2>testValue2</defaultParam2>
                 </parameters>
             </parameters>
@@ -38,7 +38,7 @@
                             <item>
                                 <extractorInfo extractorType="contains">
                                     <extractorProperties type="com.fnfr.svt.mapping.execution.extractors.ExtractorContainsPropertyGroup">
-                                        <searchString>1.1.1.1</searchString>
+                                        <searchString>1.2.3.4</searchString>
                                     </extractorProperties>
                                 </extractorInfo>
                                 <processorInfo ruleType="assert">
