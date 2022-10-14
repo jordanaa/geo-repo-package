@@ -203,7 +203,7 @@
 				{
 					"addRepositoryNamePrefix": "true",
 					"allowToRunWithOptions":true,
-					"testPath": "activity-catalog-assets/test_cases/topologyParam.fftc
+					"testPath": "activity-catalog-assets/test_cases/topologyParam.fftc"
 				},
 				{
 					"addRepositoryNamePrefix": "true",
