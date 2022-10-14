@@ -4,48 +4,7 @@
 	"icon": "activityRegression.svg",
 	"descriptionMarkdown": "activityRegression.md",
 	"topology": [
-	{
-			"name": "Topology Logical 2",
-			"addRepositoryNamePrefix": "false",
-			"actionTitle": "Reserve",
-			"description": "Topology reservation with Static Automation only",
-			"reservationDuration": "60",
-			"automation": [
-				
-				
-				{
-					"addRepositoryNamePrefix": "true",
-					"allowToRunWithOptions":true,
-					"testPath": "runlists/runlist_fftc.vrl",
-					"parameterFilePath": "geo-repo-package/activity-catalog-assets/parameters/parameterFile2.ffpt",
-					"parametersList": [
-						{
-							"name": "parameterFile1",
-							"value": "asuihfasdhfu",
-							"type": "TEXT"
-						}
-							 ],
-					"requirements":[
-						{
-							"name": "testreq1",
-							"value": "testvalue2"
-						}
-						       ]
-					
-				},
-				{
-					"addRepositoryNamePrefix": "true",
-					"allowToRunWithOptions":true,
-					"testPath": "sleep/sleep_5min.fftc"
-				},
-				{
-					"addRepositoryNamePrefix": "true",
-					"allowToRunWithOptions":true,
-					"testPath": "sleep/sleep_1m.fftc"
-				}
-				
-			]
-		},
+	
 		{
 			"name": "Topology Logical",
 			"addRepositoryNamePrefix": "false",
