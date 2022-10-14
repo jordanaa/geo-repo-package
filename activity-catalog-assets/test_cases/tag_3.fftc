@@ -4,6 +4,16 @@
         <tags>tag_1, tag_2</tags>
         <language>Python</language>
     </general>
+        <execution>
+        <parameters version="8.5.0.202104211757">
+            <parameters escape="true">
+                <parameters xmlns:pt="http://www.fnfr.com/schemas/parameterTree">
+                    <parameterFile1>parameter_from_test</parameterFile1>
+                    
+                </parameters>
+            </parameters>
+        </parameters>
+    </execution>
     <procedures>
         <item name="main">
             <steps>
