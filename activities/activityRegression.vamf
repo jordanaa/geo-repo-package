@@ -248,14 +248,30 @@
 					]
 				},
 				{
+					"tags": [ "tag_overwrite"],
+					"allowToRunWithOptions":true,
+					"requirements":[
+						
+						
+					],
+					
+					"parametersList": [ {
+							"name": "parameterFile1",
+							"value": "parameter_from_vamf",
+							"type": "TEXT"
+						}
+						
+					]
+				},
+				{
 					"addRepositoryNamePrefix": "true",
 					"allowToRunWithOptions":true,
 					"testPath": "runlists/runlist_fftc.vrl",
 					"parameterFilePath": "geo-repo-package/activity-catalog-assets/parameters/parameterFile2.ffpt",
 					"parametersList": [
 						{
-							"name": "parameterFile1",
-							"value": "asuihfasdhfu",
+							"name": "defaultParam1",
+							"value": "testValue1",
 							"type": "TEXT"
 						}
 							 ],
