@@ -9,7 +9,7 @@
             <steps>
                 <item guid="2136bec8-7d7c-49ad-aecb-2167c325bb16" action="sleep">
                     <command>
-                        <body>30</body>
+                        <body>300</body>
                     </command>
                     <postProcessing>
                         <analysisRules>
