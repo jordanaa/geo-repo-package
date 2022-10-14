@@ -235,17 +235,15 @@
 					"tags": [ "tag_3"],
 					"allowToRunWithOptions":true,
 					"requirements":[
-						{
-							"name": "parameterFile1",
-							"value": "parameter_from_vamf",
-							"type": "TEXT"
-						}
+						
 						
 					],
 					
 					"parametersList": [ {
-					
-					}
+							"name": "parameterFile1",
+							"value": "parameter_from_vamf",
+							"type": "TEXT"
+						}
 						
 					]
 				},
