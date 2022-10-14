@@ -12,11 +12,7 @@
 			"description": "Topology reservation with mixed Automation ",
 			"reservationDuration": "60",
 			"automation": [
-				{
-					"addRepositoryNamePrefix": "true",
-					"allowToRunWithOptions":true,
-					"testPath": "activity-catalog-assets/regression/velo-6974_1.fftc"
-				},
+				
 				{
 					"addRepositoryNamePrefix": "true",
 					"allowToRunWithOptions":true,
