@@ -2,6 +2,7 @@
 <testCase version="8.5.0.202104211757">
     <general>
         <language>Python</language>
+        <tags>tag_overwrite</tags>
     </general>
     <execution>
         <parameters version="8.5.0.202104211757">
