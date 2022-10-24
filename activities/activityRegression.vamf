@@ -158,6 +158,11 @@
 				{
 					"addRepositoryNamePrefix": "true",
 					"allowToRunWithOptions":true,
+					"testPath": "geo-repo-package-mock/sleep/test_added_7043"
+				},
+				{
+					"addRepositoryNamePrefix": "true",
+					"allowToRunWithOptions":true,
 					"testPath": "activity-catalog-assets/test_cases/topologyParam.fftc"
 				},
 				{
