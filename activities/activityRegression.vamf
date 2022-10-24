@@ -158,7 +158,7 @@
 				{
 					
 					"allowToRunWithOptions":true,
-					"testPath": "geo-repo-package-mock/sleep/test_added_7043"
+					"testPath": "geo-repo-package-mock/sleep/test_added_7043.fftc"
 				},
 				{
 					"addRepositoryNamePrefix": "true",
