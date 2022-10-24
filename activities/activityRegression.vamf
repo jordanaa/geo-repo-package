@@ -155,11 +155,7 @@
 					"allowToRunWithOptions":true,
 					"testPath": "activity-catalog-assets/regression/velo_6974_1.fftc"
 				},
-				{
-					
-					"allowToRunWithOptions":true,
-					"testPath": "geo-repo-package-mock/sleep/test_added_7043.fftc"
-				},
+				
 				
 				{
 					"addRepositoryNamePrefix": "true",
