@@ -160,11 +160,7 @@
 					"allowToRunWithOptions":true,
 					"testPath": "geo-repo-package-mock/sleep/test_added_7043.fftc"
 				},
-				{
-					
-					"allowToRunWithOptions":true,
-					"testPath": "geo-repo-package-mock/runlists/added_runlist_7043.vrl"
-				},
+				
 				{
 					"addRepositoryNamePrefix": "true",
 					"allowToRunWithOptions":true,
