@@ -339,21 +339,58 @@
 			"name": "Topology Static",
 			"addRepositoryNamePrefix": "false",
 			"actionTitle": "Reserve",
-			"reservationDuration": "5",
-			"intervalToRunEndTestCase": "60",
+			"description": "Topology reservation with static Automation ",
+			"reservationDuration": "60",
 			"automation": [
+				
 				{
-					"addRepositoryNamePrefix": "false",
-					"name": "Name1",
-					"testPath": "main/simpleTestCase/test_cases/nothing.fftc"
+					"addRepositoryNamePrefix": "true",
+					"allowToRunWithOptions":true,
+					"testPath": "activity-catalog-assets/test_cases/topologyParam.fftc"
+				},
+
+				
+				
+				{	
+					"addRepositoryNamePrefix": "true",
+					"allowToRunWithOptions":true,
+					"testPath": "activity-catalog-assets/test_cases/nothing.fftc"
+				},
+				{
+					"addRepositoryNamePrefix": "true",
+					"testPath": "activity-catalog-assets/regression/test2_head.fftc"
+				},
+				{
+					"addRepositoryNamePrefix": "true",
+					"name": "Name Defined In Manifest",
+					"testPath": "activity-catalog-assets/regression/test3_no_head.fftc"
+				},
+				{
+					"addRepositoryNamePrefix": "true",
+					"testPath": "activity-catalog-assets/regression/test4_no_head.fftc"
+				},
+				{
+					"addRepositoryNamePrefix": "true",
+					"name": "Name Defined In Manifest",
+					"testPath": "activity-catalog-assets/regression/velo-6974_2.fftc"
 				},
 				{
 					"addRepositoryNamePrefix": "false",
-					"name": "Name2",
 					"testPath": "main/simpleTestCase/test_cases/nothing.fftc"
+				},
+				{	"addRepositoryNamePrefix": "true",
+					"testPath": "activity-catalog-assets/test_cases/runlistParamFile.fftc",
+					"allowToRunWithOptions":true,
+					"parameterFilePath": "activity-catalog-assets/parameters/parameterFile1.ffpt",
+					"parametersList": [
+						{
+							"name": "parameterFile2",
+							"value": "asuihfasdhfu",
+							"type": "TEXT"
+						}
+							]
 				}
 			]
-			
 		}
 	]
 }
