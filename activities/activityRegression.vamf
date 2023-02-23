@@ -334,6 +334,26 @@
 					"testPath": "activity-catalog-assets/regression/velo-7159_1.fftc"
 				}
 			]
+		},
+		{
+			"name": "Topology Static",
+			"addRepositoryNamePrefix": "false",
+			"actionTitle": "Reserve",
+			"reservationDuration": "5",
+			"intervalToRunEndTestCase": "60",
+			"automation": [
+				{
+					"addRepositoryNamePrefix": "false",
+					"name": "Name1",
+					"testPath": "main/simpleTestCase/test_cases/nothing.fftc"
+				},
+				{
+					"addRepositoryNamePrefix": "false",
+					"name": "Name2",
+					"testPath": "main/simpleTestCase/test_cases/nothing.fftc"
+				}
+			]
+			
 		}
 	]
 }
